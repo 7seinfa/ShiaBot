@@ -1,109 +1,36 @@
-/*var Discord = require('discord.io');
-var logger = require('winston');
-var auth = require('./auth.json');
-
-// Configure logger settings
-logger.remove(logger.transports.Console);
-logger.add(new logger.transports.Console, {
-    colorize: true
-});
-logger.level = 'debug';
-// Initialize Discord Bot
-var bot = new Discord.Client({
-   token: auth.token,
-   autorun: true
-});
-
-
-
-bot.on('ready', function (evt) {
-    logger.info('Connected');
-    logger.info('Logged in as: ');
-    logger.info(bot.username + ' - (' + bot.id + ')');
-});
-bot.on('message', function (user, userID, channelID, message, evt) {
-	var tafsir='';
-    // Our bot needs to know if it will execute a command
-    // It will listen for messages that will start with `!`
-    if (message.substring(0, 1) == '_') {
-        var args = message.substring(1).split(' ');
-        var cmd = args[0];
-       
-        args = args.splice(1);
-        switch(cmd) {
-            // !ping
-            case 'tafsir':
-				var verses = message.substring(8).split(' ')[0];
-				var surahNum = parseInt(verses.split(':')[0], 10)-1;
-				var verseNum = parseInt(verses.split(':')[1], 10)-1;
-				
-				tafsir = puya[surahNum][verseNum].text;
-				logger.info(tafsir);
-				while (tafsir.length) {
-					msg.reply(tafsir.substr(1999));
-					tafsir = tafsir.substr(1999);
-				}
-				/*if(tafsir.length>2000){
-					var part = tafsir;
-					var beginning = 0;
-					for(var end = 1999; end<=tafsir.length; end+=1999){
-						if(end<tafsir.length){
-							part=tafsir.substring(beginning,end);
-						}else{
-							part=tafsir.substring(beginning);
-						}
-						
-						bot.sendMessage({
-							to: channelID,
-							message: part
-						});
-						beginning+=1999;
-					}
-					part=tafsir.substring(beginning);
-					bot.sendMessage({
-							to: channelID,
-							message: part
-						});
-				}else{
-					bot.sendMessage({
-						to: channelID,
-						message: tafsir
-					});
-				}
-            break;
-            // Just add any case commands if you want to..
-         }
-     }
-});*/
 const Discord = require("discord.js");
 const client = new Discord.Client();
+//File System
 const fs = require("fs");
+//Tafsir file
 const puya = require ("./tafsir.json")
+//Authentication file
 var auth = require('./auth.json');
  
+//Log "Running" when turned on
 client.on("ready", () => {
-  console.log("I am ready!");
+  console.log("Running");
 });
  
+//Once a message is recieved
 client.on("message", (message) => {
-  if (message.content.substring(0, 1) == '_') {
-        var args = message.content.substring(1).split(' ');
-        var cmd = args[0];
+  if (message.content.substring(0, 1) == '_') { //check if the message begins with _
+        var args = message.content.substring(1).split(' '); //Take out underscore and split the command
+        var cmd = args[0]; //take the second word
        
-        args = args.splice(1);
-        switch(cmd) {
-            // !ping
-            case 'tafsir':
-				var verses = message.content.substring(8).split(' ')[0];
-				var surahNum = parseInt(verses.split(':')[0], 10)-1;
-				var verseNum = parseInt(verses.split(':')[1], 10)-1;
-				if(surahNum>=0&&surahNum<=113){
-					if(verseNum<puya[surahNum].length&&verseNum>=0){
-						tafsir = puya[surahNum][verseNum].text;
-						if(tafsir==''){
+        args = args.splice(1); 
+        switch(cmd) { //check what command is
+            case 'tafsir': //if it is tafsir
+				var verses = message.content.substring(8).split(' ')[0]; //get numbers
+				var surahNum = parseInt(verses.split(':')[0], 10)-1; //get number before :, subtract one
+				var verseNum = parseInt(verses.split(':')[1], 10)-1; //after :
+				if(surahNum>=0&&surahNum<=113){ //make sure surahNum is in range of surahs
+					if(verseNum<puya[surahNum].length&&verseNum>=0){ //make sure verse num is in range of verses
+						tafsir = puya[surahNum][verseNum].text; //get the text
+						if(tafsir==''){ //if nothing is written
 							message.channel.send('No Tafsir Found!');
 						}else{
-							message.channel.send(tafsir+'\n~Tafsir End~', { split: true });
+							message.channel.send(tafsir+'\n~Tafsir End~', { split: true }); //send messages but split up if exceeding character limit
 						}
 					}else{
 						message.channel.send('Please use the command as follows: _tafsir [surahNum]:[verseNum]\nFor example, _tafsir 55:33');
@@ -112,7 +39,6 @@ client.on("message", (message) => {
 					message.channel.send('Please use the command as follows: _tafsir [surahNum]:[verseNum]\nFor example, _tafsir 55:33');
 				}
             break;
-            // Just add any case commands if you want to..
          }
      }
 });
