@@ -106,10 +106,10 @@ client.on("message", (message) => {
 							message.channel.send(tafsir+'\n~Tafsir End~', { split: true });
 						}
 					}else{
-						message.channel.send('Please use the command as follows: _tafsir [surahNum]:[verseNum]\nFor example, -tafsir 55:33');
+						message.channel.send('Please use the command as follows: _tafsir [surahNum]:[verseNum]\nFor example, _tafsir 55:33');
 					}
 				}else{
-					message.channel.send('Please use the command as follows: _tafsir [surahNum]:[verseNum]\nFor example, -tafsir 55:33');
+					message.channel.send('Please use the command as follows: _tafsir [surahNum]:[verseNum]\nFor example, _tafsir 55:33');
 				}
             break;
             // Just add any case commands if you want to..
