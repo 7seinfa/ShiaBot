@@ -20,7 +20,7 @@ const salam = ["salam","Salam","Salaam","salaam","selam","Selam"]; //salam varia
 //Once a message is recieved
 client.on("message", (message) => {
   for(var i = 0; i<salam.length; i++){
-    if (message.content.split(' ')[0].contains(salam[i])||message.content.split(' ')[i].contains(salam[i])){ //if salam is in first 2 words
+    if (message.content.split(' ')[0].includes(salam[i])||message.content.split(' ')[i].includes(salam[i])){ //if salam is in first 2 words
           message.channel.send('Wa Alaikum AsSalam Wa Rahmatullahi Wa Barakatu'); //reply
           i=salam.length; //end for loop
     }
