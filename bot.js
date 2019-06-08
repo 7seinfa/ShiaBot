@@ -14,6 +14,9 @@ client.on("ready", () => {
  
 //Once a message is recieved
 client.on("message", (message) => {
+  if (message.content.split(' ')[0]=="Salam"||message.content.split(' ')[0]=="salam"||message.content.split(' ')[0]=="Salaam"||message.content.split(' ')[0]=="salaam"){
+        message.channel.send('Wa Alaikum AsSalam Was Rahmatullahi Was Barakatu');
+  }
   if (message.content.substring(0, 1) == '_') { //check if the message begins with _
         var args = message.content.substring(1).split(' '); //Take out underscore and split the command
         var cmd = args[0]; //take the second word
