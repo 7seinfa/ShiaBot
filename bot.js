@@ -22,9 +22,10 @@ client.on("message", (message) => {
   for(var i = 0; i<salam.length; i++){
     if (message.content.split(' ')[0].includes(salam[i])){ //if salam is in first word
       message.channel.send('Wa Alaikum AsSalam Wa Rahmatullahi Wa Barakatu'); //reply
-      break; //end for loop
+      //break; //end for loop
     }else if(message.content.split(' ').lenth>0){
       if(message.content.split(' ')[1].includes(salam[i])){ //if salam is in second word
+        console.log(message.content.split(' ')[1]);
         message.channel.send('Wa Alaikum AsSalam Wa Rahmatullahi Wa Barakatu'); //reply
         break; //end for loop
       }
