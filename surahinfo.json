@@ -1,0 +1,2657 @@
+[
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 7,
+        "title": "Al-Fatiha",
+        "titleAr":"الفاتحة",
+        "index": "001",
+        "pages": "1",
+        "juz": [
+            {
+                "index": "01",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_7"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/tbzy22h8bof9.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/matc8oqqgqx2.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/szs48699xcoi.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/gpyqfgaki8uc.mp3"
+	},
+    {
+        "place": "Medina",
+        "type": "Madaniyah",
+        "count": 286,
+        "title": "Al-Baqara",
+        "titleAr":"البقرة",
+        "index": "002",
+        "pages": "2",
+        "juz": [
+            {
+                "index": "01",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_141"
+                }
+            },
+            {
+                "index": "02",
+                "verse": {
+                    "start": "verse_142",
+                    "end": "verse_252"
+                }
+            },
+            {
+                "index": "03",
+                "verse": {
+                    "start": "verse_253",
+                    "end": "verse_286"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/hdmbc5p4fdvi.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/mreb0jdnd8w0.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/qs73q7j4q3mr.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/dia84y60e64y.mp3"
+	},
+    {
+        "place": "Medina",
+        "type": "Madaniyah",
+        "count": 200,
+        "title": "Aal-Imran",
+        "titleAr":"آل عمران",
+        "index": "003",
+        "pages": "45",
+        "juz": [
+            {
+                "index": "03",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_92"
+                }
+            },
+            {
+                "index": "04",
+                "verse": {
+                    "start": "verse_93",
+                    "end": "verse_200"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/xhnojwea2uah.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/qk37nnhvq11i.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/zmpo3o349gvr.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/iardbw98iafh.mp3"
+	},
+    {
+        "place": "Medina",
+        "type": "Madaniyah",
+        "count": 176,
+        "title": "An-Nisaa'",
+        "titleAr":"النساء",
+        "index": "004",
+        "pages": "69",
+        "juz": [
+            {
+                "index": "04",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_23"
+                }
+            },
+            {
+                "index": "05",
+                "verse": {
+                    "start": "verse_24",
+                    "end": "verse_147"
+                }
+            },
+            {
+                "index": "06",
+                "verse": {
+                    "start": "verse_148",
+                    "end": "verse_176"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/bmpbfnwdneoc.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/igf3kturrmv5.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/qh7gxnpx4168.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/vd8irffehjus.mp3"
+	},
+    {
+        "place": "Medina",
+        "type": "Madaniyah",
+        "count": 120,
+        "title": "Al-Ma'ida",
+        "titleAr":"المائدة",
+        "index": "005",
+        "pages": "95",
+        "juz": [
+            {
+                "index": "06",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_81"
+                }
+            },
+            {
+                "index": "07",
+                "verse": {
+                    "start": "verse_82",
+                    "end": "verse_120"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/zzn3jq8xma81.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/ky0tgnq4jj9h.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/zrtp8ycqu0oe.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/hxx5vocchcaz.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 165,
+        "title": "Al-An'am",
+        "titleAr":"الأنعام",
+        "index": "006",
+        "pages": "115",
+        "juz": [
+            {
+                "index": "07",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_110"
+                }
+            },
+            {
+                "index": "08",
+                "verse": {
+                    "start": "verse_111",
+                    "end": "verse_165"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/jg4jnaun9gaq.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/zw61wnbutzte.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/ocowbh1qywgh.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/dw6496jhtxqr.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 206,
+        "title": "Al-A'raf",
+        "titleAr":"الأعراف",
+        "index": "007",
+        "pages": "136",
+        "juz": [
+            {
+                "index": "08",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_87"
+                }
+            },
+            {
+                "index": "09",
+                "verse": {
+                    "start": "verse_88",
+                    "end": "verse_206"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/pgqmk4cjqzqi.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/cen75ukiz57x.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/zaucvh1d1n42.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/chhj6sbs69n8.mp3"
+	},
+    {
+        "place": "Medina",
+        "type": "Madaniyah",
+        "count": 75,
+        "title": "Al-Anfal",
+        "titleAr":"الأنفال",
+        "index": "008",
+        "pages": "160",
+        "juz": [
+            {
+                "index": "09",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_40"
+                }
+            },
+            {
+                "index": "10",
+                "verse": {
+                    "start": "verse_41",
+                    "end": "verse_75"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/tam16zv1wnsc.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/hqjrfy4ww6xa.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/iuhagbrpy9nb.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/gurn0826vdp8.mp3"
+	},
+    {
+        "place": "Medina",
+        "type": "Madaniyah",
+        "count": 129,
+        "title": "Al-Tawba",
+        "titleAr":"التوبة",
+        "index": "009",
+        "pages": "169",
+        "juz": [
+            {
+                "index": "10",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_92"
+                }
+            },
+            {
+                "index": "11",
+                "verse": {
+                    "start": "verse_93",
+                    "end": "verse_129"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/bi3umx8njw1d.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/hmps9w9o9qxr.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/mrksuxuegpmp.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/ru7np5u2fyjh.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 109,
+        "title": "Yunus",
+        "titleAr":"يونس",
+        "index": "010",
+        "pages": "187",
+        "juz": [
+            {
+                "index": "11",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_109"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/zvvsh0dct869.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/zqx89e61wnbu.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/ruqgxy0c09in.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/sp57dtbpyki3.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 123,
+        "title": "Hud",
+        "titleAr":"هود",
+        "index": "011",
+        "pages": "199",
+        "juz": [
+            {
+                "index": "11",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_5"
+                }
+            },
+            {
+                "index": "12",
+                "verse": {
+                    "start": "verse_6",
+                    "end": "verse_123"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/gy3izo4miuwp.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/ikzh8h7vywmk.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/kszcxr5uvqcq.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/vn18uuxpdaj7.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 111,
+        "title": "Yusuf",
+        "titleAr":"يوسف",
+        "index": "012",
+        "pages": "212",
+        "juz": [
+            {
+                "index": "12",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_52"
+                }
+            },
+            {
+                "index": "13",
+                "verse": {
+                    "start": "verse_53",
+                    "end": "verse_111"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/ge40a2e8iepc.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/qbinqz0qdiev.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/eq8btgjwpp4n.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/ijiwnw4buzed.mp3"
+	},
+    {
+        "place": "Medina",
+        "type": "Madaniyah",
+        "count": 43,
+        "title": "Ar-Ra'd",
+        "titleAr":"الرعد",
+        "index": "013",
+        "pages": "225",
+        "juz": [
+            {
+                "index": "13",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_43"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/hgo23b5qv4am.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/zcpy5n0uo6ad.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/tkv9th8q023x.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/rvzuhfuo0guo.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 52,
+        "title": "Ibrahim",
+        "titleAr":"إبراهيم",
+        "index": "014",
+        "pages": "231",
+        "juz": [
+            {
+                "index": "13",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_52"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/nprmvnwo6i7f.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/evoqaxmmm78f.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/acqz7pbec6yy.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/pipi68d0utte.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 99,
+        "title": "Al-Hijr",
+        "titleAr":"الحجر",
+        "index": "015",
+        "pages": "237",
+        "juz": [
+            {
+                "index": "14",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_99"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/ohybwywaqp30.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/wwgmjsqkbmtp.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/jeuipkb03jbm.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/oiah0jf59n5f.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 128,
+        "title": "An-Nahl",
+        "titleAr":"النحل",
+        "index": "016",
+        "pages": "242",
+        "juz": [
+            {
+                "index": "14",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_128"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/emvyj766f3ex.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/hevkuic95xry.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/ove38kvuxvsx.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/nhwf6fvt3zh4.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 111,
+        "title": "Al-Israa",
+        "titleAr":"الإسراء",
+        "index": "017",
+        "pages": "255",
+        "juz": [
+            {
+                "index": "15",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_111"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/mg3eniie98hm.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/vqaifuwmd8xu.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/pbcg4gf0we68.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/hftpbnvf6nn7.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 110,
+        "title": "Al-Kahf",
+        "titleAr":"الكهف",
+        "index": "018",
+        "pages": "266",
+        "juz": [
+            {
+                "index": "15",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_74"
+                }
+            },
+            {
+                "index": "16",
+                "verse": {
+                    "start": "verse_75",
+                    "end": "verse_110"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/ueu69xmetvju.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/mzp851uiense.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/rsim4n0hdfsi.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/uc8eidyyyy9e.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 98,
+        "title": "Maryam",
+        "titleAr":"مريم",
+        "index": "019",
+        "pages": "277",
+        "juz": [
+            {
+                "index": "16",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_98"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/zzor1a253ry0.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/jxqn90pp8kz3.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/goovy15ivv7a.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/ixf2s70i47kt.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 135,
+        "title": "Ta-Ha",
+        "titleAr":"طه",
+        "index": "020",
+        "pages": "284",
+        "juz": [
+            {
+                "index": "16",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_135"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/kwyg47fbxnk9.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/ujjw98z67t52.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/wxj9a3cjv615.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/gt6o7nfyh2xb.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 112,
+        "title": "Al-Anbiya",
+        "titleAr":"الأنبياء",
+        "index": "021",
+        "pages": "294",
+        "juz": [
+            {
+                "index": "17",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_112"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/bivo579eujpf.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/hxx20v2np92t.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/dj5h3fd2p1fm.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/gijuie1qxgnq.mp3"
+	},
+    {
+        "place": "Medina",
+        "type": "Madaniyah",
+        "count": 78,
+        "title": "Al-Hajj",
+        "titleAr":"الحج",
+        "index": "022",
+        "pages": "302",
+        "juz": [
+            {
+                "index": "17",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_78"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/hweuifp20zdx.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/fqtt9m1ywkr9.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/otjmsp2gff7r.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/rncpapr1r0t2.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 118,
+        "title": "Al-Muminun",
+        "titleAr":"المؤمنون",
+        "index": "023",
+        "pages": "311",
+        "juz": [
+            {
+                "index": "18",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_118"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/kfk80k5z2hip.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/dz2cwznacqft.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/srwvgr2g28um.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/kpcncsxu05qh.mp3"
+	},
+    {
+        "place": "Medina",
+        "type": "Madaniyah",
+        "count": 64,
+        "title": "An-Nur",
+        "titleAr":"النور",
+        "index": "024",
+        "pages": "319",
+        "juz": [
+            {
+                "index": "18",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_64"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/ppixwdk8p8yk.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/zvqvw6yp3ha3.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/ucdbx96d326t.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/tox1p6pqz6z7.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 77,
+        "title": "Al-Furqan",
+        "titleAr":"الفرقان",
+        "index": "025",
+        "pages": "329",
+        "juz": [
+            {
+                "index": "18",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_20"
+                }
+            },
+            {
+                "index": "19",
+                "verse": {
+                    "start": "verse_21",
+                    "end": "verse_77"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/az9cp3rwopp3.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/su3q3vxrs6dm.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/hqnw94hxfoe5.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/mt3nf94b6tyy.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 227,
+        "title": "Ash-Shuara",
+        "titleAr":"الشعراء",
+        "index": "026",
+        "pages": "335",
+        "juz": [
+            {
+                "index": "19",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_227"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/eux8pzvy4bef.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/dupnc5jionus.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/qqpzry78n5ax.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/mj80cyp3qque.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 93,
+        "title": "An-Naml",
+        "titleAr":"النمل",
+        "index": "027",
+        "pages": "345",
+        "juz": [
+            {
+                "index": "19",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_55"
+                }
+            },
+            {
+                "index": "20",
+                "verse": {
+                    "start": "verse_56",
+                    "end": "verse_93"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/uedxaohqmcji.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/kfo5cj0o5uzj.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/if5psndjzy3m.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/gqg316jggg6b.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 88,
+        "title": "Al-Qasas",
+        "titleAr":"القصص",
+        "index": "028",
+        "pages": "354",
+        "juz": [
+            {
+                "index": "20",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_88"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/rbytycimz7f4.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/dr8y1e9hpuv3.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/bndb17m62pw4.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/zezzspa8n1g0.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 69,
+        "title": "Al-Ankabut",
+        "titleAr":"العنكبوت",
+        "index": "029",
+        "pages": "364",
+        "juz": [
+            {
+                "index": "20",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_45"
+                }
+            },
+            {
+                "index": "21",
+                "verse": {
+                    "start": "verse_46",
+                    "end": "verse_69"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/fbnnr1amcj6x.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/avt5fdesrrc5.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/kmex5kwth73g.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/cr257w3y0c6y.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 60,
+        "title": "Ar-Rum",
+        "titleAr":"الروم",
+        "index": "030",
+        "pages": "371",
+        "juz": [
+            {
+                "index": "21",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_60"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/kj3obcc32p5e.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/rwdktmgjn493.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/rbt4xj8ab9r3.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/xnskvyjavzmr.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 34,
+        "title": "Luqman",
+        "titleAr":"لقمان",
+        "index": "031",
+        "pages": "377",
+        "juz": [
+            {
+                "index": "21",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_34"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/ao53vwfuyz2h.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/gvq0peqwrms9.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/ef0mjv76uyss.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/nxs7z3tykg1r.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 30,
+        "title": "As-Sajdah",
+        "titleAr":"السجدة",
+        "index": "032",
+        "pages": "381",
+        "juz": [
+            {
+                "index": "21",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_30"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/qjv2xwt8fvh1.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/dxtizjxebqxi.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/qtj0xotexo80.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/isghxe4ae7vo.mp3"
+	},
+    {
+        "place": "Medina",
+        "type": "Madaniyah",
+        "count": 73,
+        "title": "Al-Ahzab",
+        "titleAr":"الأحزاب",
+        "index": "033",
+        "pages": "383",
+        "juz": [
+            {
+                "index": "21",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_30"
+                }
+            },
+            {
+                "index": "22",
+                "verse": {
+                    "start": "verse_31",
+                    "end": "verse_73"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/yzggm41vr7p8.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/cnp5mptk8asd.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/xfbmxbkp90d9.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/ty5qvbq9d7iq.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 54,
+        "title": "Saba",
+        "titleAr":"سبأ",
+        "index": "034",
+        "pages": "393",
+        "juz": [
+            {
+                "index": "22",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_54"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/puc8yjitaxvj.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/pwy4ymkd4xjt.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/xniw58fi1qyx.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/fvjv2ooq8ogf.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 45,
+        "title": "Fatir",
+        "titleAr":"فاطر",
+        "index": "035",
+        "pages": "399",
+        "juz": [
+            {
+                "index": "22",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_45"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/toqfheusbggf.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/prhahavjc0fc.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/br8w3nu350mw.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/xj1zoxsusj1t.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 83,
+        "title": "Yasin",
+        "titleAr":"يس",
+        "index": "036",
+        "pages": "404",
+        "juz": [
+            {
+                "index": "22",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_27"
+                }
+            },
+            {
+                "index": "23",
+                "verse": {
+                    "start": "verse_28",
+                    "end": "verse_83"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/mj46tb1bushy.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/gmvwudfvai2b.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/hsrgp2mb9shc.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/xpb0znm7ykqw.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 182,
+        "title": "As-Saffat",
+        "titleAr":"الصافات",
+        "index": "037",
+        "pages": "410",
+        "juz": [
+            {
+                "index": "23",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_182"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/fo24mvo0vgar.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/ub4x8pihnwou.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/xjfd6pgpcdi2.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/mpmse2sk6he7.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 88,
+        "title": "Sad",
+        "titleAr":"ص",
+        "index": "038",
+        "pages": "417",
+        "juz": [
+            {
+                "index": "23",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_88"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/reyimtcssjeu.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/czktmv18qe40.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/cq43o3bfp22r.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/iokf1dwh5o8u.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 75,
+        "title": "Az-Zumar",
+        "titleAr":"الزمر",
+        "index": "039",
+        "pages": "422",
+        "juz": [
+            {
+                "index": "23",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_31"
+                }
+            },
+            {
+                "index": "24",
+                "verse": {
+                    "start": "verse_32",
+                    "end": "verse_75"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/fqxm2a9fpvbz.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/tsh14aer6qk4.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/jo2djrvevm1e.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/wgj0jxp4fx6m.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 85,
+        "title": "Ghafir",
+        "titleAr":"غافر",
+        "index": "040",
+        "pages": "431",
+        "juz": [
+            {
+                "index": "24",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_85"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/qcm0q4n6qmfb.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/zzst3gwnwbjn.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/jv9w7r5ryg8z.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/uneppbkniixy.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 54,
+        "title": "Fussilat",
+        "titleAr":"فصلت",
+        "index": "041",
+        "pages": "439",
+        "juz": [
+            {
+                "index": "24",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_46"
+                }
+            },
+            {
+                "index": "25",
+                "verse": {
+                    "start": "verse_47",
+                    "end": "verse_54"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/ajhwegmjsqkb.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/rtk6a88y95nk.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/xa9pz76rb7k1.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/uhhfuf2nuhyo.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 53,
+        "title": "Ash-Shura",
+        "titleAr":"الشورى",
+        "index": "042",
+        "pages": "445",
+        "juz": [
+            {
+                "index": "25",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_53"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/mrpj31cmfjek.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/vwzyvsqcvtby.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/pywjckrejcci.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/ma32z7ew1xko.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 89,
+        "title": "Az-Zukhruf",
+        "titleAr":"الزخرف",
+        "index": "043",
+        "pages": "451",
+        "juz": [
+            {
+                "index": "25",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_89"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/ssmnp9y4ow8j.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/pspex5e8vtqg.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/pr0ussz5i0dd.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/cjt6qfbiwyw7.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 59,
+        "title": "Ad-Dukhan",
+        "titleAr":"الدخان",
+        "index": "044",
+        "pages": "457",
+        "juz": [
+            {
+                "index": "25",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_59"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/tupnfxc8bxyk.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/kp2467s9tbfk.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/ypjde3xhq9e6.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/kwbruq5wi13j.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 37,
+        "title": "Al-Jathiya",
+        "titleAr":"الجاثية",
+        "index": "045",
+        "pages": "460",
+        "juz": [
+            {
+                "index": "25",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_37"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/bjuqpa5dso2i.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/og8xaxanowxp.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/zz8dgic9n4cj.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/qnddatt6p8fh.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 35,
+        "title": "Al-Ahqaf",
+        "titleAr":"الأحقاف",
+        "index": "046",
+        "pages": "464",
+        "juz": [
+            {
+                "index": "26",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_35"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/naoqdairkxby.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/rebkf9bijxnn.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/pf07g5qqg35y.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/jecj7esarwsj.mp3"
+	},
+    {
+        "place": "Medina",
+        "type": "Madaniyah",
+        "count": 38,
+        "title": "Muhammad",
+        "titleAr":"محمد",
+        "index": "047",
+        "pages": "468",
+        "juz": [
+            {
+                "index": "26",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_38"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/qgf3p3360ccv.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/ffu0w9dcssw9.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/edcpgjnvfuou.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/wxzoskapr57o.mp3"
+	},
+    {
+        "place": "Medina",
+        "type": "Madaniyah",
+        "count": 29,
+        "title": "Al-Fath",
+        "titleAr":"الفتح",
+        "index": "048",
+        "pages": "472",
+        "juz": [
+            {
+                "index": "26",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_29"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/av3r4vysnb72.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/rddfzpyupm7b.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/ym8k3sxgsrhi.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/rxgp6ukmirkf.mp3"
+	},
+    {
+        "place": "Medina",
+        "type": "Madaniyah",
+        "count": 18,
+        "title": "Al-Hujurat",
+        "titleAr":"الحجرات",
+        "index": "049",
+        "pages": "477",
+        "juz": [
+            {
+                "index": "26",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_18"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/mard41mobudm.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/kmmg9sstt92w.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/jjdnjx1pmm0a.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/ypgp12h4zbmz.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 45,
+        "title": "Qaf",
+        "titleAr":"ق",
+        "index": "050",
+        "pages": "479",
+        "juz": [
+            {
+                "index": "26",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_45"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/mbw2wbb7majh.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/ndpejnh84sr0.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/vb8heqja0efn.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/ipwoe5z3zz82.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 60,
+        "title": "Az-Zariyat",
+        "titleAr":"الذاريات",
+        "index": "051",
+        "pages": "482",
+        "juz": [
+            {
+                "index": "26",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_30"
+                }
+            },
+            {
+                "index": "27",
+                "verse": {
+                    "start": "verse_31",
+                    "end": "verse_60"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/raasssghb3sk.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/umu29va440id.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/zd77yesr7u0o.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/xq99jf2jje5j.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 49,
+        "title": "At-Tur",
+        "titleAr":"الطور",
+        "index": "052",
+        "pages": "485",
+        "juz": [
+            {
+                "index": "27",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_49"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/xk2uij03wiee.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/jcjbiyv4zb24.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/jjw98z67t52k.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/de0zddm0udkh.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 62,
+        "title": "An-Najm",
+        "titleAr":"النجم",
+        "index": "053",
+        "pages": "487",
+        "juz": [
+            {
+                "index": "27",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_62"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/jb11v6omrxxi.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/rzw3nu350mwh.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/gtv0p5ejnqda.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/nb0n3izxxi7v.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 55,
+        "title": "Al-Qamar",
+        "titleAr":"القمر",
+        "index": "054",
+        "pages": "490",
+        "juz": [
+            {
+                "index": "27",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_55"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/eg78oan92nuq.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/ptqpbckzbpup.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/cpv1jwnb6z6h.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/nynibrg14uzf.mp3"
+	},
+    {
+        "place": "Medina",
+        "type": "Madaniyah",
+        "count": 78,
+        "title": "Ar-Rahman",
+        "titleAr":"الرحمن",
+        "index": "055",
+        "pages": "493",
+        "juz": [
+            {
+                "index": "27",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_78"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/vqg8gddhk7yc.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/ekykzbkcwqnf.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/pwofo6vtb9qk.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/novrvcu1jjkc.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 96,
+        "title": "Al-Waqia",
+        "titleAr":"الواقعة",
+        "index": "056",
+        "pages": "496",
+        "juz": [
+            {
+                "index": "27",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_96"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/yxiodt8no8p7.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/cokc19h29aiv.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/ha6kqbwo2r1m.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/vq0k9053r12t.mp3"
+	},
+    {
+        "place": "Medina",
+        "type": "Madaniyah",
+        "count": 29,
+        "title": "Al-Hadid",
+        "titleAr":"الحديد",
+        "index": "057",
+        "pages": "499",
+        "juz": [
+            {
+                "index": "27",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_29"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/nwn82e18vo6v.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/bn10tzanko8a.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/aiwm11qxvj0j.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/wfaf3k8gshk0.mp3"
+	},
+    {
+        "place": "Medina",
+        "type": "Madaniyah",
+        "count": 22,
+        "title": "Al-Mujadilah",
+        "titleAr":"المجادلة",
+        "index": "058",
+        "pages": "504",
+        "juz": [
+            {
+                "index": "28",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_22"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/odiww21pvx62.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/hgty0pcog9th.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/umany7qvzkbr.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/dk5go93yuyjv.mp3"
+	},
+    {
+        "place": "Medina",
+        "type": "Madaniyah",
+        "count": 24,
+        "title": "Al-Hashr",
+        "titleAr":"الحشر",
+        "index": "059",
+        "pages": "507",
+        "juz": [
+            {
+                "index": "28",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_24"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/tiq699o5q7s5.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/de0qwvqyn12x.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/myg6xu7qrbm3.mp3",
+		"reciter4": "https://www.yahosein.com/quran/mp3/1/Prhiz/Prhiz059.mp3"
+	},
+    {
+        "place": "Medina",
+        "type": "Madaniyah",
+        "count": 13,
+        "title": "Al-Mumtahinah",
+        "titleAr":"الممتحنة",
+        "index": "060",
+        "pages": "510",
+        "juz": [
+            {
+                "index": "28",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_13"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/zwvaaswm5f1s.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/jv2yzp9e08v4.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/qisdphuyt85y.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/td4v5oscqczm.mp3"
+	},
+    {
+        "place": "Medina",
+        "type": "Madaniyah",
+        "count": 14,
+        "title": "As-Saff",
+        "titleAr":"الصف",
+        "index": "061",
+        "pages": "513",
+        "juz": [
+            {
+                "index": "28",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_14"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/cmv5b9a3pske.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/iq78cz07roba.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/uqv4bpuvzcca.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/kuqz271fpex5.mp3"
+	},
+    {
+        "place": "Medina",
+        "type": "Madaniyah",
+        "count": 11,
+        "title": "Al-Jumu'ah",
+        "titleAr":"الجمعة",
+        "index": "062",
+        "pages": "515",
+        "juz": [
+            {
+                "index": "28",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_11"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/jj5adiepfbz9.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/pxxo82e93k8c.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/rjv2jbzo46g3.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/wzvtqg40z8uk.mp3"
+	},
+    {
+        "place": "Medina",
+        "type": "Madaniyah",
+        "count": 11,
+        "title": "Al-Munafiqun",
+        "titleAr":"المنافقون",
+        "index": "063",
+        "pages": "516",
+        "juz": [
+            {
+                "index": "28",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_11"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/eicvtaxgb3x8.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/vd8rb0dcgd1o.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/fmgwcc88o7k4.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/kuxs1dnxwrgc.mp3"
+	},
+    {
+        "place": "Medina",
+        "type": "Madaniyah",
+        "count": 18,
+        "title": "At-Taghabun",
+        "titleAr":"التغابن",
+        "index": "064",
+        "pages": "518",
+        "juz": [
+            {
+                "index": "28",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_18"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/pg3a9o7fbdov.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/hx93ksuoccm6.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/buawgve2sfmy.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/shndx0aucmmu.mp3"
+	},
+    {
+        "place": "Medina",
+        "type": "Madaniyah",
+        "count": 12,
+        "title": "At-Talaq",
+        "titleAr":"الطلاق",
+        "index": "065",
+        "pages": "520",
+        "juz": [
+            {
+                "index": "28",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_12"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/uguc6kreoyr8.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/upv953boejyi.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/wig3np50kkjs.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/xwnqss8z7kot.mp3"
+	},
+    {
+        "place": "Medina",
+        "type": "Madaniyah",
+        "count": 12,
+        "title": "At-Tahrim",
+        "titleAr":"التحريم",
+        "index": "066",
+        "pages": "522",
+        "juz": [
+            {
+                "index": "28",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_12"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/eq84d8y9yove.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/jk606859p7s9.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/da8kr9av8ha6.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/gpnrp1cp3vd0.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 30,
+        "title": "Al-Mulk",
+        "titleAr":"الملك",
+        "index": "067",
+        "pages": "524",
+        "juz": [
+            {
+                "index": "29",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_30"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/gqr76es2dx71.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/da8fgsagb762.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/eiuc2kna1eem.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/uvju4hbhdmpj.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 52,
+        "title": "Al-Qalam",
+        "titleAr":"القلم",
+        "index": "068",
+        "pages": "526",
+        "juz": [
+            {
+                "index": "29",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_52"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/wi0p0ck33hqf.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/ym345g9at4k9.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/yigg707mmajm.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/kits5dgs77x8.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 52,
+        "title": "Al-Haqqah",
+        "titleAr":"الحاقة",
+        "index": "069",
+        "pages": "529",
+        "juz": [
+            {
+                "index": "29",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_52"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/inzjs097z7cx.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/crptneofwmdt.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/vyzjd1yg4ry7.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/omteo50g6sx6.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 44,
+        "title": "Al-Ma'arij",
+        "titleAr":"المعارج",
+        "index": "070",
+        "pages": "531",
+        "juz": [
+            {
+                "index": "29",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_44"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/gh09qm5kb0z1.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/ptaq699o5q7s.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/ou0z4ugv29ah.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/eh83mpdhmj3o.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 28,
+        "title": "Nuh",
+        "titleAr":"نوح",
+        "index": "071",
+        "pages": "533",
+        "juz": [
+            {
+                "index": "29",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_28"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/kdjntejp5mcd.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/sygf2n6sb8a4.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/guhq2537dqu9.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/igjv72h8snoo.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 28,
+        "title": "Al-Jinn",
+        "titleAr":"الجن",
+        "index": "072",
+        "pages": "534",
+        "juz": [
+            {
+                "index": "29",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_28"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/bymi3oqxmq6m.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/pp467s9tbfk7.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/qsvzcoqbtig7.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/ngq69ybsgqdh.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 20,
+        "title": "Al-Muzzammil",
+        "titleAr":"المزمل",
+        "index": "073",
+        "pages": "537",
+        "juz": [
+            {
+                "index": "29",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_20"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/mmzvuyoamnm3.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/xco82e93k8cq.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/gkxi35nr1r23.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/pngnt264brkc.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 56,
+        "title": "Al-Muddaththir",
+        "titleAr":"المدثر",
+        "index": "074",
+        "pages": "538",
+        "juz": [
+            {
+                "index": "29",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_56"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/yajbubsrz46h.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/yxijyvop10bh.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/hye9bidpgngf.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/fsoeyai04mtw.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 40,
+        "title": "Al-Qiyamah",
+        "titleAr":"القيامة",
+        "index": "075",
+        "pages": "540",
+        "juz": [
+            {
+                "index": "29",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_40"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/pj579p0rpc3m.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/zoi9a3kwd6n9.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/wx8gz5eng6qv.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/cpvfz9qykq37.mp3"
+	},
+    {
+        "place": "Medina",
+        "type": "Madaniyah",
+        "count": 31,
+        "title": "Al-Insan",
+        "titleAr":"الإنسان",
+        "index": "076",
+        "pages": "542",
+        "juz": [
+            {
+                "index": "29",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_31"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/xpqtja78jhwf.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/ys19hyyxig7u.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/ik4nmswu9i6i.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/rshudm6upv8x.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 50,
+        "title": "Al-Mursalat",
+        "titleAr":"المرسلات",
+        "index": "077",
+        "pages": "544",
+        "juz": [
+            {
+                "index": "29",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_50"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/yzthr75c8bdd.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/et7sp0z4ugv2.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/ix6txzqgt7sf.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/bwr7m0rv9n8m.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 40,
+        "title": "An-Naba",
+        "titleAr":"النبأ",
+        "index": "078",
+        "pages": "545",
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_40"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/ba1enh3n0gux.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/ypxdiu88wgba.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/pu56azrnrpnu.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/mbdrzdo0qb4u.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 46,
+        "title": "An-Naziat",
+        "titleAr":"النازعات",
+        "index": "079",
+        "pages": "547",
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_46"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/jf0vg70v6daq.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/jts3y25gdny2.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/db6s9hmw4862.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/cu1cv7tnfyxm.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 42,
+        "title": "Abasa",
+        "titleAr":"عبس",
+        "index": "080",
+        "pages": "548",
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_42"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/xxbqdr8e3dsb.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/imo8ergw5bd1.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/ww1brmzzzsc6.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/innr6vdcq293.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 29,
+        "title": "At-Takwir",
+        "titleAr":"التكوير",
+        "index": "081",
+        "pages": "550",
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_29"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/qu0ztg83ejon.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/ks8ogk2r2iq9.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/msw29uo0vvqc.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/vyvp00s6evmn.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 19,
+        "title": "Al-Infitar",
+        "titleAr":"الإنفطار",
+        "index": "082",
+        "pages": "551",
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_19"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/kjbusqcax7jq.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/kiy5yc48gh5b.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/hpoojwfmykh8.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/pb2dnjdkgfk7.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 36,
+        "title": "Al-Mutaffifin",
+        "titleAr":"المطففين",
+        "index": "083",
+        "pages": "552",
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_36"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/fr26asjkf944.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/tfhbhdmpj8at.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/njy4t0rm4fxu.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/uyqtbpne93ft.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 25,
+        "title": "Al-Inshiqaq",
+        "titleAr":"الإنشقاق",
+        "index": "084",
+        "pages": "553",
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_25"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/vojcchrvpgd1.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/sc2mryuuouzp.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/idd9yoa9142z.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/aqm2ub438fgs.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 22,
+        "title": "Al-Buruj",
+        "titleAr":"البروج",
+        "index": "085",
+        "pages": "554",
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_22"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/ss0fpg9bqw3n.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/kv81nteo50g6.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/hzimtk8vhk2h.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/idb762pjzbf9.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 17,
+        "title": "At-Tariq",
+        "titleAr":"الطارق",
+        "index": "086",
+        "pages": "555",
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_17"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/gespatjtmrnu.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/tmwhk7np99xf.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/ihu8bx527ygr.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/zdwt4nv1nh44.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 19,
+        "title": "Al-Ala",
+        "titleAr":"الأعلى",
+        "index": "087",
+        "pages": "556",
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_19"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/qsa8ois3n0rg.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/zk3mrsag8rt2.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/indwmw39f0x1.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/tibon345g9at.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 26,
+        "title": "Al-Ghashiyah",
+        "titleAr":"الغاشية",
+        "index": "088",
+        "pages": "556",
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_26"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/wtokcxzui939.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/atfvazkyvqkv.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/mq8diege2ztc.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/fj9mpqz03ym6.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 30,
+        "title": "Al-Fajr",
+        "titleAr":"الفجر",
+        "index": "089",
+        "pages": "557",
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_30"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/dpy6f8h25uv3.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/ds1t7j3jhj28.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/ygtbni3xswg7.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/tbuns6bwweu3.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 20,
+        "title": "Al-Balad",
+        "titleAr":"البلد",
+        "index": "090",
+        "pages": "559",
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_20"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/gx6sxm02o8rs.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/uwba6crdhgut.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/dnseio1r7961.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/wz3u615v1sr7.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 15,
+        "title": "Ash-Shams",
+        "titleAr":"الشمس",
+        "index": "091",
+        "pages": "559",
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_15"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/ed6sopctw4qb.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/sm9f77yesr7u.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/jvfvs3n2385c.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/gsqyny028u2n.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 21,
+        "title": "Al-Lail",
+        "titleAr":"الليل",
+        "index": "092",
+        "pages": "560",
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_21"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/oyjff0cnpoit.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/vqgbrcfmfhcr.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/rjini438cir0.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/hnonzisqw3yu.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 11,
+        "title": "Ad-Duha",
+        "titleAr":"الضحى",
+        "index": "093",
+        "pages": "561",
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_11"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/ewxu0ysxkw8s.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/pb1o1udp85nf.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/cw8ipcsjmwst.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/gokee1s09arb.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 8,
+        "title": "Ash-Sharh",
+        "titleAr":"الشرح",
+        "index": "094",
+        "pages": "561",
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_8"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/hkk1m4py66e3.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/sv60kfwcgqn9.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/rpkpdicuydv3.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/pfg5tx3a8j2o.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 8,
+        "title": "At-Tin",
+        "titleAr":"التين",
+        "index": "095",
+        "pages": "562",
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_8"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/zuu216o08mpx.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/mh8bwcahruqy.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/mputrc8xaom8.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/az1nvf0537jh.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 19,
+        "title": "Al-Alaq",
+        "titleAr":"العلق",
+        "index": "096",
+        "pages": "562",
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_19"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/ksbijfou3ncf.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/jh4zskhzkya8.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/zobau5w7z7p4.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/hx3pz4eekpet.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 5,
+        "title": "Al-Qadr",
+        "titleAr":"القدر",
+        "index": "097",
+        "pages": "563",
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_5"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/iacouzco3hv7.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/nz6kz8pqgh5s.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/peecehdph6cv.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/ab1w99dcbjop.mp3"
+	},
+    {
+        "place": "Medina",
+        "type": "Madaniyah",
+        "count": 8,
+        "title": "Al-Bayinah",
+        "titleAr":"البينة",
+        "index": "098",
+        "pages": "563",
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_8"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/cxhs8ze1qjvg.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/zr9yove6wr76.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/yvpakzt6rid1.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/jbaatd44r53r.mp3"
+	},
+    {
+        "place": "Medina",
+        "type": "Madaniyah",
+        "count": 8,
+        "title": "Az-Zalzalah",
+        "titleAr":"الزلزلة",
+        "index": "099",
+        "pages": "564",
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_8"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/qzyn5rddmuci.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/nthra2n7ychf.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/usjk238yy1yb.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/zev6x3gw5syt.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 11,
+        "title": "Al-Adiyat",
+        "titleAr":"العاديات",
+        "index": "100",
+        "pages": "564",
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_11"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/tnwndxmvjc29.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/dbpgjnvfuoui.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/vtcgtu2wopkt.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/jy1vavqno8k3.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 11,
+        "title": "Al-Qariah",
+        "titleAr":"القارعة",
+        "index": "101",
+        "pages": "565",
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_11"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/edp9k7oj8vd5.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/zc67t52k5uv0.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/bztxaf09i9tq.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/kfpz38oa5whf.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 8,
+        "title": "Al-Takathur",
+        "titleAr":"التكاثر",
+        "index": "102",
+        "pages": "565",
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_8"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/wr3aezow4b64.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/ev59m9e3j3o4.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/cdeuxmr1grut.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/bbz16txh3eta.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 3,
+        "title": "Al-Asr",
+        "titleAr":"العصر",
+        "index": "103",
+        "pages": "566",
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_3"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/vnfnxx4exezw.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/zi3fbtrwdfqk.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/dtz6rwbsmeqd.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/ffkw8bbvuwcg.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 9,
+        "title": "Al-Humazah",
+        "titleAr":"الهمزة",
+        "index": "104",
+        "pages": "566",
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_9"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/zhmjznrenq8w.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/af9vhcgbz4gx.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/aww5w3f8tbp5.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/humvo2i8z0qw.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 5,
+        "title": "Al-Fil",
+        "titleAr":"الفيل",
+        "index": "105",
+        "pages": "566",
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_5"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/dim9p0gmjbav.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/ifxharq8sxpt.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/pmvyq21r0grf.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/di2fwp0rk5ug.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 4,
+        "title": "Quraish",
+        "titleAr":"قريش",
+        "index": "106",
+        "pages": "567",
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_4"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/ajqom49iy3r4.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/aix2v1jwnb6z.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/vtevm90d1ey8.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/ede04v147y6c.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 7,
+        "title": "Al-Ma'un",
+        "titleAr":"الماعون",
+        "index": "107",
+        "pages": "567",
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_7"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/ivrdo03ja7t1.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/rzf0dju43syd.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/zs7za91sz1hs.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/cek1hwerpxz7.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 3,
+        "title": "Al-Kauthar",
+        "titleAr":"الكوثر",
+        "index": "108",
+        "pages": "567",
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_3"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/pf0a094722vp.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/jr7w4tvd0cyc.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/aw3dbop9f7rx.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/gvsokn6ssdeq.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 6,
+        "title": "Al-Kafirun",
+        "titleAr":"الكافرون",
+        "index": "109",
+        "pages": "568",
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_6"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/dceonr5atjg7.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/dti9qe7vxfde.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/vc3zi3ypsc0p.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/zr8njdwioym1.mp3"
+	},
+    {
+        "place": "Medina",
+        "type": "Madaniyah",
+        "count": 3,
+        "title": "An-Nasr",
+        "titleAr":"النصر",
+        "index": "110",
+        "pages": "568",
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_3"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/vsgtgnhzcydg.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/ts6kzs6oqsda.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/pmafrruv7t1u.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/ujw4b0tanx99.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 5,
+        "title": "Al-Masad",
+        "titleAr":"المسد",
+        "index": "111",
+        "pages": "568",
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_5"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/odr27nuu1w9t.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/qoq05s5d8by7.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/noa3m6my6ov5.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/fzcgd9njx9m9.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 4,
+        "title": "Al-Ikhlas",
+        "titleAr":"الإخلاص",
+        "index": "112",
+        "pages": "569",
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_4"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/rj3b1aazvnnf.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/qyp6upadh21u.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/nrqu9j9ta5ym.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/se3b5hi9zkxs.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 5,
+        "title": "Al-Falaq",
+        "titleAr":"الفلق",
+        "index": "113",
+        "pages": "569",
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_5"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/wefy8jg6oren.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/ut0deg6ttn2i.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/uuhzc4ypzzid.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/swapiuwkacqr.mp3"
+	},
+    {
+        "place": "Mecca",
+        "type": "Makkiyah",
+        "count": 6,
+        "title": "An-Nas",
+        "titleAr":"الناس",
+        "index": "114",
+        "pages": "569",
+        "juz": [
+            {
+                "index": "30",
+                "verse": {
+                    "start": "verse_1",
+                    "end": "verse_6"
+                }
+            }
+        ],
+		"reciter1": "http://shiavoice.com/zxfddfg34666/quran/3amer_kazemi/tertil/aazmhrzbkejd.mp3",
+		"reciter2": "http://shiavoice.com/zxfddfg34666/quran/mithem_eltemar/telawe/phtv5qgz4fjp.mp3",
+		"reciter3": "http://shiavoice.com/zxfddfg34666/quran/ahmed_eldebak/tartil/ov9cueak4p9f.mp3",
+		"reciter4": "http://shiavoice.com/zxfddfg34666/quran/shehriar_perhizkar/telawe/aa7jz9rvutjq.mp3"
+	}
+]
