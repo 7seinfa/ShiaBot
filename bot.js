@@ -64,9 +64,33 @@ client.on('message', (message) => {
       					if(verseNum<puya[surahNum].length&&verseNum>=0){ //make sure verse num is in range of verses
       						tafsir = puya[surahNum][verseNum].text; //get the text
       						if(tafsir==''||!tafsir.includes('\n')){ //if nothing is written, if it doesn't contain an end line, it also is empty because of the way the tafsir json is set up
-      							message.channel.send(tafsir+'\nNo Tafsir Found!'+'\n~Tafsir End~');
+      							//message.channel.send(tafsir+'\nNo Tafsir Found!'+'\n~Tafsir End~');
+                    const quranEmbed = new Discord.RichEmbed()
+                        .setColor('#00a34e')
+                        .setAuthor(tafsir)
+                        .setDescription('No Tafsir Found!');
+                    message.channel.send(quranEmbed);
       						}else{
-      							message.channel.send(tafsir+'\n~Tafsir End~', { split: true }); //send messages but split up if exceeding character limit
+                    const author = tafsir.split('\n',1);
+                    if(tafsir.substring(author[0].length).length<=2000){
+                      const quranEmbed = new Discord.RichEmbed()
+                          .setColor('#00a34e')
+                          .setAuthor(author[0])
+                          .setDescription(tafsir.substring(author[0].length));
+        							message.channel.send({ embed: quranEmbed}); //send messages but split up if exceeding character limit
+                    }else{
+                      var cutTafsir = tafsir.substring(author[0].length);
+                      var cutTafsirList = splitNChars(cutTafsir,2000);
+                      cutTafsirList.push('~Tafsir End~');
+                      console.log(cutTafsirList);
+                      for(var i = 0; i<cutTafsirList.length; i++){
+                        const quranEmbed = new Discord.RichEmbed()
+                            .setColor('#00a34e')
+                            .setAuthor(author[0] + ' - Part ' + (i+1))
+                            .setDescription(cutTafsirList[i]);
+          							message.channel.send({ embed: quranEmbed});
+                      }
+                    }
       						}
       					}else{
       						message.channel.send('Invalid Usage. Please use the command as follows: _tafsir [surahNum]:[verseNum]\nFor example, _tafsir 55:33'); //if something is wrong
@@ -83,10 +107,15 @@ client.on('message', (message) => {
           		if(surahNum>=0&&surahNum<=113&&translationName!=''){ //make sure surahNum is in range of surahs, and that translation is valid
           			if(verseNum<puya[surahNum].length&&verseNum>=0){ //make sure verse num is in range of verses
           				result = quran['quran']['sura'][surahNum]['aya'][verseNum]['-text']; //get the text
-          				message.channel.send(' (سورة '+quran['quran']['sura'][surahNum]['-name']+': '+(verseNum+1)+'):\n'+'```\n'+result+'```', { split: true }); //send messages but split up if exceeding character limit
-          			}else{
+          				//message.channel.send(' (سورة '+quran['quran']['sura'][surahNum]['-name']+': '+(verseNum+1)+'):\n'+'```\n'+result+'```', { split: true }); //send messages but split up if exceeding character limit
+                  const quranEmbed = new Discord.RichEmbed()
+                      .setColor('#00a34e')
+                      .setAuthor('سورة '+quran['quran']['sura'][surahNum]['-name']+'   '+arNumber((surahNum+1).toString())+': '+arNumber((verseNum+1).toString()))
+                      .setDescription(result);
+                  message.channel.send(quranEmbed);
+                }else{
                   message.channel.send('Invalid Usage. Please use the command as follows: _quran [surahNum]:[verseNum] {-translator}\nFor example, _quran 45:32');
-          			}
+                }
           		}else{
                 message.channel.send('Invalid Usage. Please use the command as follows: _quran [surahNum]:[verseNum] {-translator}\nFor example, _quran 45:32');
           		}
@@ -121,8 +150,13 @@ client.on('message', (message) => {
           		if(surahNum>=0&&surahNum<=113&&translationName!=''){ //make sure surahNum is in range of surahs, and that translation is valid
           			if(verseNum<puya[surahNum].length&&verseNum>=0){ //make sure verse num is in range of verses
           				result = translation['quran']['sura'][surahNum]['aya'][verseNum]['-text']; //get the text
-          				message.channel.send(translationName+' (Surah '+surahInfo[surahNum]['title']+': '+(verseNum+1)+'):\n'+'```'+result+'```', { split: true }); //send messages but split up if exceeding character limit
-          			}else{
+          				//message.channel.send(translationName+' (Surah '+surahInfo[surahNum]['title']+': '+(verseNum+1)+'):\n'+'```'+result+'```', { split: true }); //send messages but split up if exceeding character limit
+                  const quranEmbed = new Discord.RichEmbed()
+                      .setColor('#00a34e')
+                      .setAuthor(translationName+' - '+'Surah '+surahInfo[surahNum]['title']+' '+(surahNum+1)+':'+(verseNum+1))
+                      .setDescription(result);
+                  message.channel.send(quranEmbed);
+                }else{
                   message.channel.send('Invalid Usage. Please use the command as follows (the default translation is by Sheikh Muhammad Sarwar): _enquran [surahNum]:[verseNum] {-translator}\nFor example, _enquran 45:32 -qarai\nThe available translations are Sheikh Muhammad Sarwar (-sarwar), Ali Quli Qarai (-qarai), and SV Mir Ahmed Ali (-ahmedali)');
           			}
           		}else{
@@ -132,20 +166,20 @@ client.on('message', (message) => {
 
             case 'urquran': //if wants translation of quran in urdu
               var translation = jawadi;
-              var translationName = 'Syed Zeeshan Haider Jawadi';
+              var translationName = 'سید ذیشان نقوی';
               if(message.content.substring(10).split(' ')[1]!=null){ //if there are tags after the surah and verse
                 switch (message.content.substring(10).split(' ')[1].toLowerCase()){ //make it lower case, and set translation to that json file
                   case '-jawadi':
                     translation = jawadi;
-                    translationName = 'Syed Zeeshan Haider Jawadi';
+                    translationName = 'سید ذیشان نقوی';
                     break;
                   case '-najafi':
                     translation = najafi;
-                    translationName = 'Sheikh Muhammad Hussain Najafi';
+                    translationName = 'شيخ محمد حسين نجفي';
                     break;
                   case '-ahmedali':
                     translation = ahmedAliUr;
-                    translationName = 'SV Mir Ahmed Ali';
+                    translationName = 'مير أحمد علي';
                     break;
                   default: //else
                     message.channel.send('Invalid Usage. Please use the command as follows (the default translation is by Syed Zeeshan Haider Jawadir): _urquran [surahNum]:[verseNum] {-translator}\nFor example, _urquran 45:32 -jawadi\nThe available translations are Syed Zeeshan Haider Jawadi (-jawadi), Sheikh Muhammad Hussain Najafi (-najafi), and SV Mir Ahmed Ali (-ahmedali)');
@@ -159,8 +193,13 @@ client.on('message', (message) => {
       				if(surahNum>=0&&surahNum<=113&&translationName!=''){ //make sure surahNum is in range of surahs, and that translation is valid
       					if(verseNum<puya[surahNum].length&&verseNum>=0){ //make sure verse num is in range of verses
       						result = translation['quran']['sura'][surahNum]['aya'][verseNum]['-text']; //get the text
-      						message.channel.send(translationName+' (Surah '+surahInfo[surahNum]['title']+': '+(verseNum+1)+'):\n'+'**```'+result+'```**', { split: true }); //send messages but split up if exceeding character limit
-      					}else{
+      						//message.channel.send(translationName+' (Surah '+surahInfo[surahNum]['title']+': '+(verseNum+1)+'):\n'+'**```'+result+'```**', { split: true }); //send messages but split up if exceeding character limit
+                  const quranEmbed = new Discord.RichEmbed()
+                      .setColor('#00a34e')
+                      .setAuthor(translationName+' - '+'سورة '+quran['quran']['sura'][surahNum]['-name']+'   '+arNumber((surahNum+1).toString())+': '+arNumber((verseNum+1).toString()))
+                      .setDescription(result);
+                  message.channel.send(quranEmbed);
+                }else{
                   message.channel.send('Invalid Usage. Please use the command as follows (the default translation is by Syed Zeeshan Haider Jawadir): _urquran [surahNum]:[verseNum] {-translator}\nFor example, _urquran 45:32 -jawadi\nThe available translations are Syed Zeeshan Haider Jawadi (-jawadi), Sheikh Muhammad Hussain Najafi (-najafi), and SV Mir Ahmed Ali (-ahmedali)');
       					}
       				}else{
@@ -170,20 +209,20 @@ client.on('message', (message) => {
 
               case 'faquran': //if wants translation of quran in farsi
                 var translation = makarem;
-                var translationName = 'Sheikh Naser Makarem Shirazi';
+                var translationName = 'شيخ ناصر مكارم شيرازي';
                 if(message.content.substring(10).split(' ')[1]!=null){ //if there are tags after the surah and verse
                   switch (message.content.substring(10).split(' ')[1].toLowerCase()){ //make it lower case, and set translation to that json file
                     case '-makarem':
                       translation = makarem;
-                      translationName = 'Sheikh Naser Makarem Shirazi';
+                      translationName = 'شيخ ناصر مكارم شيرازي';
                       break;
                     case '-tehrani':
                       translation = tehrani;
-                      translationName = 'Sheikh Mohammad Sadeqi Tehrani';
+                      translationName = 'شيخ محمد صادقي طهرني';
                       break;
                     case '-ansarian':
                       translation = ansarian;
-                      translationName = 'Sheikh Hussain Ansarian';
+                      translationName = 'شيخ حسين انصاريان';
                       break;
                     default: //else
                       message.channel.send('Invalid Usage. Please use the command as follows (the default translation is by Sheikh Naser Makarem Shirazi): _faquran [surahNum]:[verseNum] {-translator}\nFor example, _urquran 45:32 -ansarian\nThe available translations are Sheikh Naser Makarem Shirazi (-makarem), Sheikh Mohammad Sadeqi Tehrani (-tehrani), and Sheikh Hussain Ansarian (-ansarian)');
@@ -197,8 +236,13 @@ client.on('message', (message) => {
         				if(surahNum>=0&&surahNum<=113&&translationName!=''){ //make sure surahNum is in range of surahs, and that translation is valid
         					if(verseNum<puya[surahNum].length&&verseNum>=0){ //make sure verse num is in range of verses
         						result = translation['quran']['sura'][surahNum]['aya'][verseNum]['-text']; //get the text
-        						message.channel.send(translationName+' (Surah '+surahInfo[surahNum]['title']+': '+(verseNum+1)+'):\n'+'**```\n'+result+'```**', { split: true }); //send messages but split up if exceeding character limit
-        					}else{
+        						//message.channel.send(translationName+' (Surah '+surahInfo[surahNum]['title']+': '+(verseNum+1)+'):\n'+'**```\n'+result+'```**', { split: true }); //send messages but split up if exceeding character limit
+                    const quranEmbed = new Discord.RichEmbed()
+                        .setColor('#00a34e')
+                        .setAuthor(translationName+' - '+'سورة '+quran['quran']['sura'][surahNum]['-name']+'   '+arNumber((surahNum+1).toString())+': '+arNumber((verseNum+1).toString()))
+                        .setDescription(result);
+                    message.channel.send(quranEmbed);
+                  }else{
                     message.channel.send('Invalid Usage. Please use the command as follows (the default translation is by Sheikh Naser Makarem Shirazi): _faquran [surahNum]:[verseNum] {-translator}\nFor example, _urquran 45:32 -ansarian\nThe available translations are Sheikh Naser Makarem Shirazi (-makarem), Sheikh Mohammad Sadeqi Tehrani (-tehrani), and Sheikh Hussain Ansarian (-ansarian)');
         					}
         				}else{
@@ -215,5 +259,28 @@ client.on('message', (message) => {
          }
      }
 });
+
+function arNumber(engNum){
+  var arNum = "";
+  for (var i = 0; i<engNum.length; i++){
+    var enList = ["0","1","2","3","4","5","6","7","8","9"];
+    var arList = ["٠","١","٢","٣","٤","٥","٦","٧","٨","٩"];
+    for(var x = 0; x<enList.length; x++){
+      if(engNum[i]==enList[x]){
+        arNum+=arList[x];
+        break;
+      }
+    }
+  }
+  return arNum;
+}
+
+function splitNChars(txt, num) {
+  var result = [];
+  for (var i = 0; i < txt.length; i += num) {
+    result.push(txt.substr(i, num));
+  }
+  return result;
+}
 
 client.login(auth.token);
