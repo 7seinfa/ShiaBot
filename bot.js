@@ -416,8 +416,8 @@ client.on('message', (message) => {
               message.channel.send('ShiaBot\'s commands are:\n_tafsir [surahNum]:[verseNum]\n_quran [surahNum]:[verseNum]-{endVerse}\n_enquran [surahNum]:[verseNum]-{endVerse} {-translator}\n_urquran [surahNum]:[verseNum]-{endVerse} {-translator}\n_faquran [surahNum]:[verseNum]-{endVerse} {-translator}\n_kafi [bookNum]:[chapterNum]:[hadithNum]\n... and it will reply to your Salam!');
               break;
 
-            case 'destroy': //just testing
-              if(meesage.content[83297469]=''){}//throw error to end
+            /*case 'destroy': //just testing
+              if(meesage.content[83297469]=''){}//throw error to end*/
          }
      }
 });
