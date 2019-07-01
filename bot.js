@@ -400,7 +400,50 @@ client.on('message', (message) => {
                         .setDescription(text);
                       message.channel.send(hadithEmbed);
                     }else{
-                      message.channel.send('Hadith not found! Please use the command as follows: _kafi [bookNum]:[chapterNum]:[hadithNum]\n\nFor example, _kafi 2:2:5');
+                      message.channel.send('Hadith not found! Please use the command as follows: _kafi [bookNum]:[chapterNum]:[hadithNum]  or  _kafi [hadithNum]\n\nFor example, _kafi 2:2:5  or  _kafi 48');
+                    }
+                  });
+
+                }).on("error", (err) => {
+                  console.log("Error: " + err.message);
+                });
+              }else if(parseInt(verses)!=null&&!verses.includes(':')){
+                var hadith = parseInt(verses);
+                var link = 'http://fourshiabooks.com/server/get_hadith.php?book=al-kafi&hadith='+hadith;
+                http.get(link, (resp) => {
+                  let data = '';
+
+                  // A chunk of data has been recieved.
+                  resp.on('data', (chunk) => {
+                    data += chunk;
+                  });
+
+                  // The whole response has been received. Print out the result.
+                  resp.on('end', () => {
+                    if(JSON.parse(data)[0]!=null){
+                      var book = JSON.parse(data)[0].content_id;
+                      var chapter = JSON.parse(data)[0].chapter;
+                      var hadith = JSON.parse(data)[0].number;
+                      var narrator = JSON.parse(data)[0].narrator.replace(/\n|\r/g,' ');
+                      if(narrator.length>100){
+                        narrator = narrator.substring(0,100)+'...';
+                        console.log(title);
+                      }
+                      var text = JSON.parse(data)[0].text.replace(/<br\/>/g,' ');
+                      if(text.length>1000){
+                        text = text.substring(0,500)+'...';
+                      }
+                      var url = 'http://www.fourshiabooks.com/hadith/al-kafi/'+book+'/'+chapter+'/'+hadith;
+                      var title = 'Al-Kafi Book '+book+', Chapter '+chapter+', Hadith '+hadith;
+                      const hadithEmbed = new Discord.RichEmbed()
+                        .setColor('#00a34e')
+                        .setTitle(narrator)
+                        .setURL(url)
+                        .setAuthor(title)
+                        .setDescription(text);
+                      message.channel.send(hadithEmbed);
+                    }else{
+                      message.channel.send('Hadith not found! Please use the command as follows: _kafi [bookNum]:[chapterNum]:[hadithNum]  or  _kafi [hadithNum]\n\nFor example, _kafi 2:2:5  or  _kafi 48');
                     }
                   });
 
@@ -408,12 +451,12 @@ client.on('message', (message) => {
                   console.log("Error: " + err.message);
                 });
               }else{
-                message.channel.send('Hadith not found! Please use the command as follows: _kafi [bookNum]:[chapterNum]:[hadithNum]\n\nFor example, _kafi 2:2:5');
+                message.channel.send('Hadith not found! Please use the command as follows: _kafi [bookNum]:[chapterNum]:[hadithNum]  or  _kafi [hadithNum]\n\nFor example, _kafi 2:2:5  or  _kafi 48');
               }
               break;
 
             case 'help':case 'h': //help command
-              message.channel.send('ShiaBot\'s commands are:\n_tafsir [surahNum]:[verseNum]\n_quran [surahNum]:[verseNum]-{endVerse}\n_enquran [surahNum]:[verseNum]-{endVerse} {-translator}\n_urquran [surahNum]:[verseNum]-{endVerse} {-translator}\n_faquran [surahNum]:[verseNum]-{endVerse} {-translator}\n_kafi [bookNum]:[chapterNum]:[hadithNum]\n... and it will reply to your Salam!');
+              message.channel.send('ShiaBot\'s commands are:\n_tafsir [surahNum]:[verseNum]\n_quran [surahNum]:[verseNum]-{endVerse}\n_enquran [surahNum]:[verseNum]-{endVerse} {-translator}\n_urquran [surahNum]:[verseNum]-{endVerse} {-translator}\n_faquran [surahNum]:[verseNum]-{endVerse} {-translator}\n_kafi [bookNum]:[chapterNum]:[hadithNum] or _kafi [hadithNum]\n... and it will reply to your Salam!');
               break;
 
             /*case 'destroy': //just testing
