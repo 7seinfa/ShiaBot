@@ -2,6 +2,9 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 //File System
 const fs = require('fs');
+//http requests
+var http = require('http');
+
 //json files
 //general Surah info
 const surahInfo = require ('./surahinfo.json');
@@ -359,8 +362,58 @@ client.on('message', (message) => {
               }
               break;
 
+            case 'kafi':
+              var verses = message.content.substring(6).split(' ')[0];
+              if(verses.split(':').length==3){
+                var book = verses.split(':')[0];
+                var chapter = verses.split(':')[1];
+                var hadith = verses.split(':')[2];
+                var link = 'http://fourshiabooks.com/server/get_hadith.php?book=al-kafi&content_id='+book+'&chapter='+chapter+'&number='+hadith;
+                const https = require('https');
+                http.get(link, (resp) => {
+                  let data = '';
+
+                  // A chunk of data has been recieved.
+                  resp.on('data', (chunk) => {
+                    data += chunk;
+                  });
+
+                  // The whole response has been received. Print out the result.
+                  resp.on('end', () => {
+                    if(JSON.parse(data)[0]!=null){
+                      var narrator = JSON.parse(data)[0].narrator.replace(/\n|\r/g,' ');
+                      if(narrator.length>100){
+                        narrator = narrator.substring(0,100)+'...';
+                        console.log(title);
+                      }
+                      var text = JSON.parse(data)[0].text.replace(/<br\/>/g,' ');
+                      if(text.length>1000){
+                        text = text.substring(0,500)+'...';
+                      }
+                      var url = 'http://www.fourshiabooks.com/hadith/al-kafi/'+book+'/'+chapter+'/'+hadith;
+                      var title = 'Al-Kafi Book '+book+', Chapter '+chapter+', Hadith '+hadith;
+                      const hadithEmbed = new Discord.RichEmbed()
+                        .setColor('#00a34e')
+                        .setTitle(narrator)
+                        .setURL(url)
+                        .setAuthor(title)
+                        .setDescription(text);
+                      message.channel.send(hadithEmbed);
+                    }else{
+                      message.channel.send('Hadith not found! Please use the command as follows: _kafi [bookNum]:[chapterNum]:[hadithNum]\n\nFor example, _kafi 2:2:5');
+                    }
+                  });
+
+                }).on("error", (err) => {
+                  console.log("Error: " + err.message);
+                });
+              }else{
+                message.channel.send('Hadith not found! Please use the command as follows: _kafi [bookNum]:[chapterNum]:[hadithNum]\n\nFor example, _kafi 2:2:5');
+              }
+              break;
+
             case 'help':case 'h': //help command
-              message.channel.send('ShiaBot\'s commands are:\n_tafsir [surahNum]:[verseNum]\n_quran [surahNum]:[verseNum]-{endVerse}\n_enquran [surahNum]:[verseNum]-{endVerse} {-translator}\n_urquran [surahNum]:[verseNum]-{endVerse} {-translator}\n_faquran [surahNum]:[verseNum]-{endVerse} {-translator}\n... and it will reply to your Salam!');
+              message.channel.send('ShiaBot\'s commands are:\n_tafsir [surahNum]:[verseNum]\n_quran [surahNum]:[verseNum]-{endVerse}\n_enquran [surahNum]:[verseNum]-{endVerse} {-translator}\n_urquran [surahNum]:[verseNum]-{endVerse} {-translator}\n_faquran [surahNum]:[verseNum]-{endVerse} {-translator}\n_kafi [bookNum]:[chapterNum]:[hadithNum]\n... and it will reply to your Salam!');
               break;
 
             case 'destroy': //just testing
