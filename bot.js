@@ -32,8 +32,42 @@ client.on('ready', () => {
   console.log('Running');
 });
 
-//Constanct variables
+//Constant variables
 const salam = ['salam','Salam','Salaam','salaam','selam','Selam']; //salam variants
+
+//timezone stuff
+var moment = require('moment-timezone');
+
+//mongoDB stuff
+const mongo = require('mongoose');
+const url = "mongodb+srv://7seinfa:Hussein.F.A@shiabot-bxodr.mongodb.net/test?retryWrites=true&w=majority"
+mongo.connect(url, {useNewUrlParser: true, dbName: 'ShiaBot', useFindAndModify: false});
+var db = mongo.connection;
+db.on('error', console.error.bind(console, 'connection error:'));
+db.once('open', function() {
+  // we're connected!
+});
+var timezoneSchema = new mongo.Schema({
+  id: String,
+  offset: String
+}, {collection: 'timezones'});
+var TimezoneModel = mongo.model('Timezones', timezoneSchema);
+/*mongo.connect(url, {useNewUrlParser: true}, (err, db) => {
+        if(err) {
+           console.log(err);
+           process.exit(0);
+        }
+        console.log('database connected!');
+        var dbo = db.db('ShiaBot');
+        dbo.createCollection('timezones', (err, result) => {
+            if(err) {
+               console.log(err);
+               process.exit(0);
+            }
+            console.log('collection created!');
+            db.close();
+        });
+});*/
 
 
 
@@ -455,9 +489,73 @@ client.on('message', (message) => {
               }
               break;
 
-            case 'help':case 'h': //help command
-              message.channel.send('ShiaBot\'s commands are:\n_tafsir [surahNum]:[verseNum]\n_quran [surahNum]:[verseNum]-{endVerse}\n_enquran [surahNum]:[verseNum]-{endVerse} {-translator}\n_urquran [surahNum]:[verseNum]-{endVerse} {-translator}\n_faquran [surahNum]:[verseNum]-{endVerse} {-translator}\n_kafi [bookNum]:[chapterNum]:[hadithNum] or _kafi [hadithNum]\n... and it will reply to your Salam!');
+            case 'iam':
+              var timezone=message.content.substring(5).split(' ')[0];
+              if(timezone.substring(0,3)=='UTC'&&(timezone[3]=='+'||timezone[3]=='-')){
+                var offset=timezone.substring(3);
+                if(/^\d*$/.test(offset.substring(1))){
+                  var offsetOLD=offset;
+                  if(offset[0]=='+'){
+                    offset='-'+offset.substring(1);
+                  }else if(offset[0]=='-'){
+                    offset='+'+offset.substring(1);
+                  }
+                  var userid = message.member.id;
+                  var userTimezone = new TimezoneModel({id:userid,offset:offset});
+                  console.log(userTimezone);
+                  saveTimezone(userid,offset);
+                  message.channel.send("Your timezone has been set to UTC"+offsetOLD+"!");
+                }else{
+                  message.channel.send("Incorrect usage! Please use _iam UTC[plus or minus your offset]\nFor example, _iam UTC-4");
+                }
+              }else{
+                message.channel.send("Incorrect usage! Please use _iam UTC[plus or minus your offset]\nFor example, _iam UTC-4");
+              }
               break;
+
+            case 'time':
+              if(message.mentions.users.first()!=null){
+                var userid = message.mentions.users.first().id;
+                var usertag = message.mentions.users.first().tag;
+                var offset = findTimezone(userid);
+                if(offset!=''){
+                  message.channel.send(usertag+'\'s time is '+moment().tz('Etc/GMT'+offset).format('h:mm A')+' and the date is '+moment().tz('Etc/GMT'+offset).format('MMM Do YYYY'));
+                }else{
+                  message.channel.send("Time not found! Please use _time @[person tag]");
+                }
+              }else{
+                message.channel.send("Time not found! Please use _time @[person tag]");
+              }
+              break;
+
+            case 'help':case 'h': //help command
+              message.channel.send('ShiaBot\'s commands are:\n_tafsir [surahNum]:[verseNum]\n_quran [surahNum]:[verseNum]-{endVerse}\n_enquran [surahNum]:[verseNum]-{endVerse} {-translator}\n_urquran [surahNum]:[verseNum]-{endVerse} {-translator}\n_faquran [surahNum]:[verseNum]-{endVerse} {-translator}\n_kafi [bookNum]:[chapterNum]:[hadithNum] or _kafi [hadithNum]\n_iam UTC[plus or minus your offset]\n_time @[person tag]\n... and it will reply to your Salam!');
+              break;
+
+              /*mongo.connect(url, {useNewUrlParser: true}, (err, db) => {
+                if(err) {
+                    console.log(err);
+                    process.exit(0);
+                }
+                let data = {
+                  "id": userid,
+                  "offset": offset
+                };
+                var dbo = db.db('ShiaBot');
+                console.log('database connected!');
+                var collection = dbo.collection('timezones');
+                collection.find({userid: userid}).toArray((err, results) => {
+                  if(err) {
+                      console.log(err);
+                      process.exit(0);
+                  }
+                  offset=results[0].offset;
+                  console.log(results[0].offset);
+                  db.close();
+                });
+              });
+              message.channel.send(usertag+'\'s time is '+moment().tz('Etc/GMT'+offset).format('h:mm A')+' and the date is '+moment().tz('Etc/GMT'+offset).format('MMM Do YYYY'));
+              */break;
 
             /*case 'destroy': //just testing
               if(meesage.content[83297469]=''){}//throw error to end*/
@@ -486,6 +584,24 @@ function splitNChars(txt, num) {
     result.push(txt.substr(i, num));
   }
   return result;
+}
+
+async function saveTimezone(userid, offset){
+  if(await TimezoneModel.exists({ id: userid })){
+    await TimezoneModel.findOneAndUpdate({id:userid},{offset:offset});
+  }else{
+    await userTimezone.save(function (err, fluffy) {
+      if (err) return console.error(err);
+    });
+  }
+}
+
+async function findTimezone(userid){
+  if(await TimezoneModel.exists({ id: userid })){
+    return await TimezoneModel.findOne({id:userid}).offset;
+  }else{
+    return "";
+  }
 }
 
 client.login(auth.token);
