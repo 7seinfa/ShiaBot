@@ -503,7 +503,7 @@ client.on('message', (message) => {
                   var userid = message.member.id;
                   var userTimezone = new TimezoneModel({id:userid,offset:offset});
                   console.log(userTimezone);
-                  saveTimezone(userid,offset);
+                  saveTimezone(userid,offset,userTimezone);
                   message.channel.send("Your timezone has been set to UTC"+offsetOLD+"!");
                 }else{
                   message.channel.send("Incorrect usage! Please use _iam UTC[plus or minus your offset]\nFor example, _iam UTC-4");
@@ -586,7 +586,7 @@ function splitNChars(txt, num) {
   return result;
 }
 
-async function saveTimezone(userid, offset){
+async function saveTimezone(userid, offset, userTimezone){
   if(await TimezoneModel.exists({ id: userid })){
     await TimezoneModel.findOneAndUpdate({id:userid},{offset:offset});
   }else{
