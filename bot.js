@@ -517,12 +517,12 @@ client.on('message', (message) => {
               if(message.mentions.users.first()!=null){
                 var userid = message.mentions.users.first().id;
                 var usertag = message.mentions.users.first().tag;
-                var offset = findTimezone(userid);
-                if(offset!=''){
+                var offset = findTimezone(userid, message, usertag);
+                /*if(offset!=''){
                   message.channel.send(usertag+'\'s time is '+moment().tz('Etc/GMT'+offset).format('h:mm A')+' and the date is '+moment().tz('Etc/GMT'+offset).format('MMM Do YYYY'));
                 }else{
                   message.channel.send("Time not found! Please use _time @[person tag]");
-                }
+                }*/
               }else{
                 message.channel.send("Time not found! Please use _time @[person tag]");
               }
@@ -596,11 +596,24 @@ async function saveTimezone(userid, offset){
   }
 }
 
-async function findTimezone(userid){
+async function findTimezone(userid, message, usertag){
+  console.log('1');
   if(await TimezoneModel.exists({ id: userid })){
-    return await TimezoneModel.findOne({id:userid}).offset;
+    console.log('2');
+    var offset;
+    await TimezoneModel.findOne(({id:userid}), function(err, results) {
+      console.log('3');
+      if(err) {
+          console.log(err);
+      }
+      offset=results.offset;
+      console.log('4');
+      message.channel.send(usertag+'\'s time is '+moment().tz('Etc/GMT'+offset).format('h:mm A')+' and the date is '+moment().tz('Etc/GMT'+offset).format('MMM Do YYYY'));
+      console.log(offset);
+    });
   }else{
-    return "";
+    offset = '';
+    message.channel.send("Time not found! Please use _time @[person tag]");
   }
 }
 
