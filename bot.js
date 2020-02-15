@@ -24,6 +24,14 @@ const makarem = require ('./makarem.json');
 const tehrani = require ('./tehrani.json');
 const ansarian = require ('./ansarian.json');
 
+//kafi
+//usul
+const usul = [require ('./Kafi/Usul/1.json'),require ('./Kafi/Usul/2.json'),require ('./Kafi/Usul/3.json'),require ('./Kafi/Usul/4.json'),require ('./Kafi/Usul/5.json'),require ('./Kafi/Usul/6.json'),require ('./Kafi/Usul/7.json'),require ('./Kafi/Usul/8.json'),require ('./Kafi/Usul/book-info.json')];
+//furu
+const furu = [require ('./Kafi/Furu/1.json'),require ('./Kafi/Furu/2.json'),require ('./Kafi/Furu/3.json'),require ('./Kafi/Furu/4.json'),require ('./Kafi/Furu/5.json'),require ('./Kafi/Furu/6.json'),require ('./Kafi/Furu/7.json'),require ('./Kafi/Furu/8.json'),require ('./Kafi/Furu/9.json'),require ('./Kafi/Furu/10.json'),require ('./Kafi/Furu/11.json'),require ('./Kafi/Furu/12.json'),require ('./Kafi/Furu/13.json'),require ('./Kafi/Furu/14.json'),require ('./Kafi/Furu/15.json'),require ('./Kafi/Furu/16.json'),require ('./Kafi/Furu/17.json'),require ('./Kafi/Furu/18.json'),require ('./Kafi/Furu/19.json'),require ('./Kafi/Furu/20.json'),require ('./Kafi/Furu/21.json'),require ('./Kafi/Furu/22.json'),require ('./Kafi/Furu/23.json'),require ('./Kafi/Furu/24.json'),require ('./Kafi/Furu/25.json'),require ('./Kafi/Furu/26.json'),require ('./Kafi/Furu/book-info.json')];
+//rawdat
+const rawdat = [require ('./Kafi/Rawdat/1.json'),require ('./Kafi/Rawdat/book-info.json')];
+
 //Authentication file
 var auth = require('./auth.json');
 
@@ -396,7 +404,187 @@ client.on('message', (message) => {
               }
               break;
 
-            case 'kafi':
+
+            case 'hadith':
+              try{
+                var series = message.content.split(' ')[1].toLowerCase();
+                switch(series){
+                  case 'kafi':
+                    var volume = message.content.split(' ')[2].toLowerCase();
+                    switch(volume){
+                      case 'usul':
+                        var verses = message.content.split(' ')[3];
+                        var book = verses.split(':')[0];
+                        var chapter = verses.split(':')[1];
+                        var hadith = verses.split(':')[2];
+                        var language = message.content.split(' ')[4];
+                        if(language!=null){
+                          language = message.content.split(' ')[4].toLowerCase();
+                          if(language=='-english'){
+                            result = usul[parseInt(book)-1]['chapters'][0][parseInt(chapter)-1][parseInt(hadith)-1]['english'].replace(/<br>/g, '\n');
+                            if(result.length>=2000){
+                              result = result.substring(0,1500) + '...\n Read the rest of the Hadith at: http://thaqalayn.co/index.php/ahadith?Al-Kafi/Usul/'+book+'/'+chapter+'/'+hadith;
+                            }
+                            const quranEmbed = new Discord.RichEmbed()
+                              .setColor('#00a34e')
+                              .setAuthor(usul[8]['name']+' - '+usul[8]['books'][parseInt(book)-1]['title'].replace(/<br>/g, ' - ')+' - '+usul[8]['books'][parseInt(book)-1]['chapters'][parseInt(chapter)-1]+' - Hadith '+hadith)
+                              .setDescription(result);
+                            message.channel.send(quranEmbed);
+                          }else if(language=='-arabic'){
+                            result = usul[parseInt(book)-1]['chapters'][0][parseInt(chapter)-1][parseInt(hadith)-1]['arabic'].replace(/<br>/g, '\n');
+                            if(result.length>=2000){
+                              result = result.substring(0,1500) + '...\n Read the rest of the Hadith at: http://thaqalayn.co/index.php/ahadith?Al-Kafi/Usul/'+book+'/'+chapter+'/'+hadith;
+                            }
+                            const quranEmbed = new Discord.RichEmbed()
+                              .setColor('#00a34e')
+                              .setAuthor(usul[8]['name']+' - '+usul[8]['books'][parseInt(book)-1]['title'].replace(/<br>/g, ' - ')+' - '+usul[8]['books'][parseInt(book)-1]['chapters'][parseInt(chapter)-1]+' - Hadith '+hadith)
+                              .setDescription(result);
+                            message.channel.send(quranEmbed);
+                          }else{
+                            result = usul[parseInt(book)-1]['chapters'][0][parseInt(chapter)-1][parseInt(hadith)-1]['english'].replace(/<br>/g, '\n');
+                            if(result.length>=2000){
+                              result = result.substring(0,1500) + '...\n Read the rest of the Hadith at: http://thaqalayn.co/index.php/ahadith?Al-Kafi/Usul/'+book+'/'+chapter+'/'+hadith;
+                            }
+                            const quranEmbed = new Discord.RichEmbed()
+                              .setColor('#00a34e')
+                              .setAuthor(usul[8]['name']+' - '+usul[8]['books'][parseInt(book)-1]['title'].replace(/<br>/g, ' - ')+' - '+usul[8]['books'][parseInt(book)-1]['chapters'][parseInt(chapter)-1]+' - Hadith '+hadith)
+                              .setDescription(result);
+                            message.channel.send(quranEmbed);
+                          }
+                        }else{
+                          result = usul[parseInt(book)-1]['chapters'][0][parseInt(chapter)-1][parseInt(hadith)-1]['english'].replace(/<br>/g, '\n');
+                          if(result.length>=2000){
+                            result = result.substring(0,1500) + '...\n Read the rest of the Hadith at: http://thaqalayn.co/index.php/ahadith?Al-Kafi/Usul/'+book+'/'+chapter+'/'+hadith;
+                          }
+                          const quranEmbed = new Discord.RichEmbed()
+                            .setColor('#00a34e')
+                            .setAuthor(usul[8]['name']+' - '+usul[8]['books'][parseInt(book)-1]['title'].replace(/<br>/g, ' - ')+' - '+usul[8]['books'][parseInt(book)-1]['chapters'][parseInt(chapter)-1]+' - Hadith '+hadith)
+                            .setDescription(result);
+                          message.channel.send(quranEmbed);
+                        }
+                        break;
+
+                      case 'furu':
+                        var verses = message.content.split(' ')[3];
+                        var book = verses.split(':')[0];
+                        var chapter = verses.split(':')[1];
+                        var hadith = verses.split(':')[2];
+                        var language = message.content.split(' ')[4];
+                        if(language!=null){
+                          language = message.content.split(' ')[4].toLowerCase();
+                          if(language=='-english'){
+                            result = furu[parseInt(book)-1]['chapters'][0][parseInt(chapter)-1][parseInt(hadith)-1]['english'].replace(/<br>/g, '\n');
+                            if(result.length>=2000){
+                              result = result.substring(0,1500) + '...\n Read the rest of the Hadith at: http://thaqalayn.co/index.php/ahadith?Al-Kafi/Furu/'+book+'/'+chapter+'/'+hadith;
+                            }
+                            const quranEmbed = new Discord.RichEmbed()
+                              .setColor('#00a34e')
+                              .setAuthor(furu[26]['name']+' - '+furu[26]['books'][parseInt(book)-1]['title'].replace(/<br>/g, ' - ')+' - '+furu[26]['books'][parseInt(book)-1]['chapters'][parseInt(chapter)-1]+' - Hadith '+hadith)
+                              .setDescription(result);
+                            message.channel.send(quranEmbed);
+                          }else if(language=='-arabic'){
+                            result = furu[parseInt(book)-1]['chapters'][0][parseInt(chapter)-1][parseInt(hadith)-1]['arabic'].replace(/<br>/g, '\n');
+                            if(result.length>=2000){
+                              result = result.substring(0,1500) + '...\n Read the rest of the Hadith at: http://thaqalayn.co/index.php/ahadith?Al-Kafi/Furu/'+book+'/'+chapter+'/'+hadith;
+                            }
+                            const quranEmbed = new Discord.RichEmbed()
+                              .setColor('#00a34e')
+                              .setAuthor(furu[26]['name']+' - '+furu[26]['books'][parseInt(book)-1]['title'].replace(/<br>/g, ' - ')+' - '+furu[26]['books'][parseInt(book)-1]['chapters'][parseInt(chapter)-1]+' - Hadith '+hadith)
+                              .setDescription(result);
+                            message.channel.send(quranEmbed);
+                          }else{
+                            result = furu[parseInt(book)-1]['chapters'][0][parseInt(chapter)-1][parseInt(hadith)-1]['english'].replace(/<br>/g, '\n');
+                            if(result.length>=2000){
+                              result = result.substring(0,1500) + '...\n Read the rest of the Hadith at: http://thaqalayn.co/index.php/ahadith?Al-Kafi/Furu/'+book+'/'+chapter+'/'+hadith;
+                            }
+                            const quranEmbed = new Discord.RichEmbed()
+                              .setColor('#00a34e')
+                              .setAuthor(furu[26]['name']+' - '+furu[26]['books'][parseInt(book)-1]['title'].replace(/<br>/g, ' - ')+' - '+furu[26]['books'][parseInt(book)-1]['chapters'][parseInt(chapter)-1]+' - Hadith '+hadith)
+                              .setDescription(result);
+                            message.channel.send(quranEmbed);
+                          }
+                        }else{
+                          result = furu[parseInt(book)-1]['chapters'][0][parseInt(chapter)-1][parseInt(hadith)-1]['english'].replace(/<br>/g, '\n');
+                          if(result.length>=2000){
+                            result = result.substring(0,1500) + '...\n Read the rest of the Hadith at: http://thaqalayn.co/index.php/ahadith?Al-Kafi/Furu/'+book+'/'+chapter+'/'+hadith;
+                          }
+                          const quranEmbed = new Discord.RichEmbed()
+                            .setColor('#00a34e')
+                            .setAuthor(furu[26]['name']+' - '+furu[26]['books'][parseInt(book)-1]['title'].replace(/<br>/g, ' - ')+' - '+furu[26]['books'][parseInt(book)-1]['chapters'][parseInt(chapter)-1]+' - Hadith '+hadith)
+                            .setDescription(result);
+                          message.channel.send(quranEmbed);
+                        }
+                        break;
+
+                      case 'rawdat':
+                        var verses = message.content.split(' ')[3];
+                        var book = verses.split(':')[0];
+                        var chapter = verses.split(':')[1];
+                        var hadith = verses.split(':')[2];
+                        var language = message.content.split(' ')[4];
+                        if(language!=null){
+                          language = message.content.split(' ')[4].toLowerCase();
+                          if(language=='-english'){
+                            result = rawdat[parseInt(book)-1]['chapters'][0][parseInt(chapter)-1][parseInt(hadith)-1]['english'].replace(/<br>/g, '\n');
+                            if(result.length>=2000){
+                              result = result.substring(0,1500) + '...\n Read the rest of the Hadith at: http://thaqalayn.co/index.php/ahadith?Al-Kafi/Rawdat/'+book+'/'+chapter+'/'+hadith;
+                            }
+                            const quranEmbed = new Discord.RichEmbed()
+                              .setColor('#00a34e')
+                              .setAuthor(rawdat[1]['name']+' - '+rawdat[1]['books'][parseInt(book)-1]['title'].replace(/<br>/g, ' - ')+' - '+rawdat[1]['books'][parseInt(book)-1]['chapters'][parseInt(chapter)-1]+' - Hadith '+hadith)
+                              .setDescription(result);
+                            message.channel.send(quranEmbed);
+                          }else if(language=='-arabic'){
+                            result = rawdat[parseInt(book)-1]['chapters'][0][parseInt(chapter)-1][parseInt(hadith)-1]['arabic'].replace(/<br>/g, '\n');
+                            if(result.length>=2000){
+                              result = result.substring(0,1500) + '...\n Read the rest of the Hadith at: http://thaqalayn.co/index.php/ahadith?Al-Kafi/Rawdat/'+book+'/'+chapter+'/'+hadith;
+                            }
+                            const quranEmbed = new Discord.RichEmbed()
+                              .setColor('#00a34e')
+                              .setAuthor(rawdat[1]['name']+' - '+rawdat[1]['books'][parseInt(book)-1]['title'].replace(/<br>/g, ' - ')+' - '+rawdat[1]['books'][parseInt(book)-1]['chapters'][parseInt(chapter)-1]+' - Hadith '+hadith)
+                              .setDescription(result);
+                            message.channel.send(quranEmbed);
+                          }else{
+                            result = rawdat[parseInt(book)-1]['chapters'][0][parseInt(chapter)-1][parseInt(hadith)-1]['english'].replace(/<br>/g, '\n');
+                            if(result.length>=2000){
+                              result = result.substring(0,1500) + '...\n Read the rest of the Hadith at: http://thaqalayn.co/index.php/ahadith?Al-Kafi/Rawdat/'+book+'/'+chapter+'/'+hadith;
+                            }
+                            const quranEmbed = new Discord.RichEmbed()
+                              .setColor('#00a34e')
+                              .setAuthor(rawdat[1]['name']+' - '+rawdat[1]['books'][parseInt(book)-1]['title'].replace(/<br>/g, ' - ')+' - '+rawdat[1]['books'][parseInt(book)-1]['chapters'][parseInt(chapter)-1]+' - Hadith '+hadith)
+                              .setDescription(result);
+                            message.channel.send(quranEmbed);
+                          }
+                        }else{
+                          result = rawdat[parseInt(book)-1]['chapters'][0][parseInt(chapter)-1][parseInt(hadith)-1]['english'].replace(/<br>/g, '\n');
+                          if(result.length>=2000){
+                            result = result.substring(0,1500) + '...\n Read the rest of the Hadith at: http://thaqalayn.co/index.php/ahadith?Al-Kafi/Rawdat/'+book+'/'+chapter+'/'+hadith;
+                          }
+                          const quranEmbed = new Discord.RichEmbed()
+                            .setColor('#00a34e')
+                            .setAuthor(rawdat[1]['name']+' - '+rawdat[1]['books'][parseInt(book)-1]['title'].replace(/<br>/g, ' - ')+' - '+rawdat[1]['books'][parseInt(book)-1]['chapters'][parseInt(chapter)-1]+' - Hadith '+hadith)
+                            .setDescription(result);
+                          message.channel.send(quranEmbed);
+                        }
+                        break;
+
+                      default:
+                        message.channel.send('Hadith not found! Please use the command as follows: _hadith [bookSeriesName] [volume] [bookNum]:[chapterNum]:[hadithNum] [-language]\n\n The currently available book series are: kafi\nThe currently available volumes are: For kafi; usul, furu, rawdat\nThe currently available languages are: english, arabic\nYou can find ahadith numbers here: http://thaqalayn.co/index.php/ahadith');
+                        break;
+                    }
+                    break;
+
+                  default:
+                    message.channel.send('Hadith not found! Please use the command as follows: _hadith [bookSeriesName] [volume] [bookNum]:[chapterNum]:[hadithNum] [-language]\n\n The currently available book series are: kafi\nThe currently available volumes are: For kafi; usul, furu, rawdat\nThe currently available languages are: english, arabic\nYou can find ahadith numbers here: http://thaqalayn.co/index.php/ahadith');
+                    break;
+                }
+              }catch(error){
+                console.log(error);
+                message.channel.send('Hadith not found! Please use the command as follows: _hadith [bookSeriesName] [volume] [bookNum]:[chapterNum]:[hadithNum] [-language]\n\n The currently available book series are: kafi\nThe currently available volumes are: For kafi; usul, furu, rawdat\nThe currently available languages are: english, arabic\nYou can find ahadith numbers here: http://thaqalayn.co/index.php/ahadith');
+              }
+              break;
+
+            /*case 'kafi':
               var verses = message.content.substring(6).split(' ')[0];
               if(verses.split(':').length==3){
                 var book = verses.split(':')[0];
@@ -522,14 +710,14 @@ client.on('message', (message) => {
                   message.channel.send(usertag+'\'s time is '+moment().tz('Etc/GMT'+offset).format('h:mm A')+' and the date is '+moment().tz('Etc/GMT'+offset).format('MMM Do YYYY'));
                 }else{
                   message.channel.send("Time not found! Please use _time @[person tag]");
-                }*/
+                }
               }else{
                 message.channel.send("Time not found! Please use _time @[person tag]");
               }
-              break;
+              break;*/
 
             case 'help':case 'h': //help command
-              message.channel.send('ShiaBot\'s commands are:\n_tafsir [surahNum]:[verseNum]\n_quran [surahNum]:[verseNum]-{endVerse}\n_enquran [surahNum]:[verseNum]-{endVerse} {-translator}\n_urquran [surahNum]:[verseNum]-{endVerse} {-translator}\n_faquran [surahNum]:[verseNum]-{endVerse} {-translator}\n_kafi [bookNum]:[chapterNum]:[hadithNum] or _kafi [hadithNum]\n_iam UTC[plus or minus your offset]\n_time @[person tag]\n... and it will reply to your Salam!');
+              message.channel.send('ShiaBot\'s commands are:\n_tafsir [surahNum]:[verseNum]\n_quran [surahNum]:[verseNum]-{endVerse}\n_enquran [surahNum]:[verseNum]-{endVerse} {-translator}\n_urquran [surahNum]:[verseNum]-{endVerse} {-translator}\n_faquran [surahNum]:[verseNum]-{endVerse} {-translator}\n_hadith [bookSeriesName] [volume] [bookNum]:[chapterNum]:[hadithNum] [-language]\n... and it will reply to your Salam!');
               break;
 
               /*mongo.connect(url, {useNewUrlParser: true}, (err, db) => {
