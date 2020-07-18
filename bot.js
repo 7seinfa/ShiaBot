@@ -78,7 +78,9 @@ var TimezoneModel = mongo.model('Timezones', timezoneSchema);
 });*/
 
 
-client.user.setStatus('online', '_help | ShiaBot')
+client.user.setActivity("_help | ShiaBot", {
+  type: "PLAYING"
+});
 //Once a message is recieved
 client.on('message', (message) => {
 
