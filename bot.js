@@ -38,6 +38,10 @@ var auth = require('./auth.json');
 //Log 'Running' when turned on
 client.on('ready', () => {
   console.log('Running');
+	
+client.user.setActivity("_help | ShiaBot", {
+  type: "PLAYING"
+});
 });
 
 //Constant variables
@@ -78,9 +82,6 @@ var TimezoneModel = mongo.model('Timezones', timezoneSchema);
 });*/
 
 
-client.user.setActivity("_help | ShiaBot", {
-  type: "PLAYING"
-});
 //Once a message is recieved
 client.on('message', (message) => {
 
