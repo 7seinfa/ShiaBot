@@ -82,7 +82,7 @@ var TimezoneModel = mongo.model('Timezones', timezoneSchema);
 //Once a message is recieved
 client.on('message', (message) => {
 
-  if(message.content.split(' ')[0].includes('سلام')){ //if salam (arabic) is in first word
+  /*if(message.content.split(' ')[0].includes('سلام')){ //if salam (arabic) is in first word
     message.channel.send('وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ'); //reply
   }
   for(var i = 0; i<salam.length; i++){
@@ -96,7 +96,7 @@ client.on('message', (message) => {
         break; //end for loop
       }
     }
-  }
+  }*/
 
   if (message.content.substring(0, 1) == '_') { //check if the message begins with _
         var cmd = message.content.substring(1).split(' ')[0]; //Take out underscore and split the command and take the first word
@@ -174,6 +174,9 @@ client.on('message', (message) => {
                 var v2 = parseInt(verseNumString.split('-')[1], 10)-1;
                 for(v1; v1<=v2; v1++){
                   if(surahNum>=0&&surahNum<=113&&translationName!=''){ //make sure surahNum is in range of surahs, and that translation is valid
+				if(v2-v1>=5){
+					v2=v1+4;
+				}
               			if(v1<puya[surahNum].length&&v1>=0&&v2<puya[surahNum].length){ //make sure verse nums is in range of verses
               				result = quran['quran']['sura'][surahNum]['aya'][v1]['-text']; //get the text
               				//message.channel.send(' (سورة '+quran['quran']['sura'][surahNum]['-name']+': '+(verseNum+1)+'):\n'+'```\n'+result+'```', { split: true }); //send messages but split up if exceeding character limit
@@ -195,8 +198,8 @@ client.on('message', (message) => {
               break;
 
             case 'enquran': //if wants translation of quran in english
-              var translation = sarwar;
-              var translationName = 'Sheikh Muhammad Sarwar';
+              var translation = qarai;
+              var translationName = 'Ali Quli Qarai';
               if(message.content.substring(10).split(' ')[1]!=null){ //if there are tags after the surah and verse
                 switch (message.content.substring(10).split(' ')[1].toLowerCase()){ //make it lower case, and set translation to that json file
                   case '-sarwar':
@@ -243,6 +246,9 @@ client.on('message', (message) => {
                 var v1 = parseInt(verseNumString.split('-')[0], 10)-1;
                 var v2 = parseInt(verseNumString.split('-')[1], 10)-1;
                 for(v1; v1<=v2; v1++){
+				if(v2-v1>=5){
+					v2=v1+4;
+				}
                   if(surahNum>=0&&surahNum<=113&&translationName!=''&&translationName!=''){ //make sure surahNum is in range of surahs, and that translation is valid
               			if(v1<puya[surahNum].length&&v1>=0&&v2<puya[surahNum].length){ //make sure verse num is in range of verses
               				result = translation['quran']['sura'][surahNum]['aya'][v1]['-text']; //get the text
@@ -313,6 +319,9 @@ client.on('message', (message) => {
                 var v1 = parseInt(verseNumString.split('-')[0], 10)-1;
                 var v2 = parseInt(verseNumString.split('-')[1], 10)-1;
                 for(v1; v1<=v2; v1++){
+				if(v2-v1>=5){
+					v2=v1+4;
+				}
                   if(surahNum>=0&&surahNum<=113&&translationName!=''&&translationName!=''){ //make sure surahNum is in range of surahs, and that translation is valid
                     if(v1<puya[surahNum].length&&v1>=0&&v2<puya[surahNum].length){ //make sure verse num is in range of verses
                       result = translation['quran']['sura'][surahNum]['aya'][v1]['-text']; //get the text
@@ -383,6 +392,9 @@ client.on('message', (message) => {
                 var v1 = parseInt(verseNumString.split('-')[0], 10)-1;
                 var v2 = parseInt(verseNumString.split('-')[1], 10)-1;
                 for(v1; v1<=v2; v1++){
+				if(v2-v1>=5){
+					v2=v1+4;
+				}
                   if(surahNum>=0&&surahNum<=113&&translationName!=''&&translationName!=''){ //make sure surahNum is in range of surahs, and that translation is valid
                     if(v1<puya[surahNum].length&&v1>=0&&v2<puya[surahNum].length){ //make sure verse num is in range of verses
                       result = translation['quran']['sura'][surahNum]['aya'][v1]['-text']; //get the text
@@ -717,7 +729,7 @@ client.on('message', (message) => {
               break;*/
 
             case 'help':case 'h': //help command
-              message.channel.send('ShiaBot\'s commands are:\n_tafsir [surahNum]:[verseNum]\n_quran [surahNum]:[verseNum]-{endVerse}\n_enquran [surahNum]:[verseNum]-{endVerse} {-translator}\n_urquran [surahNum]:[verseNum]-{endVerse} {-translator}\n_faquran [surahNum]:[verseNum]-{endVerse} {-translator}\n_hadith [bookSeriesName] [volume] [bookNum]:[chapterNum]:[hadithNum] [-language]\n... and it will reply to your Salam!');
+              message.channel.send('ShiaBot\'s commands are:\n_tafsir [surahNum]:[verseNum]\n_quran [surahNum]:[verseNum]-{endVerse}\n_enquran [surahNum]:[verseNum]-{endVerse} {-translator}\n_urquran [surahNum]:[verseNum]-{endVerse} {-translator}\n_faquran [surahNum]:[verseNum]-{endVerse} {-translator}\n_hadith [bookSeriesName] [volume] [bookNum]:[chapterNum]:[hadithNum] [-language]');
               break;
 
               /*mongo.connect(url, {useNewUrlParser: true}, (err, db) => {
