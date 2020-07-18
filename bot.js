@@ -81,6 +81,7 @@ var TimezoneModel = mongo.model('Timezones', timezoneSchema);
 
 //Once a message is recieved
 client.on('message', (message) => {
+  bot.user.setPresence({ game: { name: '_help | ShiaBot', type: "playing"}}); 
 
   /*if(message.content.split(' ')[0].includes('سلام')){ //if salam (arabic) is in first word
     message.channel.send('وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ'); //reply
