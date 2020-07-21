@@ -177,8 +177,8 @@ client.on('message', (message) => {
                 var v2 = parseInt(verseNumString.split('-')[1], 10)-1;
                 for(v1; v1<=v2; v1++){
                   if(surahNum>=0&&surahNum<=113&&translationName!=''){ //make sure surahNum is in range of surahs, and that translation is valid
-				if(v2-v1>=5){
-					v2=v1+4;
+				if(v2-v1>=10){
+					v2=v1+9;
 				}
               			if(v1<puya[surahNum].length&&v1>=0&&v2<puya[surahNum].length){ //make sure verse nums is in range of verses
               				result = quran['quran']['sura'][surahNum]['aya'][v1]['-text']; //get the text
@@ -249,8 +249,8 @@ client.on('message', (message) => {
                 var v1 = parseInt(verseNumString.split('-')[0], 10)-1;
                 var v2 = parseInt(verseNumString.split('-')[1], 10)-1;
                 for(v1; v1<=v2; v1++){
-				if(v2-v1>=5){
-					v2=v1+4;
+				if(v2-v1>=10){
+					v2=v1+9;
 				}
                   if(surahNum>=0&&surahNum<=113&&translationName!=''&&translationName!=''){ //make sure surahNum is in range of surahs, and that translation is valid
               			if(v1<puya[surahNum].length&&v1>=0&&v2<puya[surahNum].length){ //make sure verse num is in range of verses
@@ -322,8 +322,8 @@ client.on('message', (message) => {
                 var v1 = parseInt(verseNumString.split('-')[0], 10)-1;
                 var v2 = parseInt(verseNumString.split('-')[1], 10)-1;
                 for(v1; v1<=v2; v1++){
-				if(v2-v1>=5){
-					v2=v1+4;
+				if(v2-v1>=10){
+					v2=v1+9;
 				}
                   if(surahNum>=0&&surahNum<=113&&translationName!=''&&translationName!=''){ //make sure surahNum is in range of surahs, and that translation is valid
                     if(v1<puya[surahNum].length&&v1>=0&&v2<puya[surahNum].length){ //make sure verse num is in range of verses
@@ -395,8 +395,8 @@ client.on('message', (message) => {
                 var v1 = parseInt(verseNumString.split('-')[0], 10)-1;
                 var v2 = parseInt(verseNumString.split('-')[1], 10)-1;
                 for(v1; v1<=v2; v1++){
-				if(v2-v1>=5){
-					v2=v1+4;
+				if(v2-v1>=10){
+					v2=v1+9;
 				}
                   if(surahNum>=0&&surahNum<=113&&translationName!=''&&translationName!=''){ //make sure surahNum is in range of surahs, and that translation is valid
                     if(v1<puya[surahNum].length&&v1>=0&&v2<puya[surahNum].length){ //make sure verse num is in range of verses
