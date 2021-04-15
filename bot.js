@@ -113,7 +113,7 @@ client.on('message', (message) => {
       						tafsir = puya[surahNum][verseNum].text; //get the text
       						if(tafsir==''||!tafsir.includes('\n')){ //if nothing is written, if it doesn't contain an end line, it also is empty because of the way the tafsir json is set up
       							//message.channel.send(tafsir+'\nNo Tafsir Found!'+'\n~Tafsir End~');
-                    const quranEmbed = new Discord.RichEmbed()
+                    const quranEmbed = new Discord.MessageEmbed()
                         .setColor('#00a34e')
                         .setAuthor(tafsir)
                         .setDescription('No Tafsir Found!');
@@ -121,7 +121,7 @@ client.on('message', (message) => {
       						}else{
                     const author = tafsir.split('\n',1);
                     if(tafsir.substring(author[0].length).length<=2000){
-                      const quranEmbed = new Discord.RichEmbed()
+                      const quranEmbed = new Discord.MessageEmbed()
                           .setColor('#00a34e')
                           .setAuthor(author[0])
                           .setDescription(tafsir.substring(author[0].length));
@@ -132,7 +132,7 @@ client.on('message', (message) => {
                       cutTafsirList.push('~Tafsir End~');
                       console.log(cutTafsirList);
                       for(var i = 0; i<cutTafsirList.length; i++){
-                        const quranEmbed = new Discord.RichEmbed()
+                        const quranEmbed = new Discord.MessageEmbed()
                             .setColor('#00a34e')
                             .setAuthor(author[0] + ' - Part ' + (i+1))
                             .setDescription(cutTafsirList[i]);
@@ -161,7 +161,7 @@ client.on('message', (message) => {
             			if(verseNum<puya[surahNum].length&&verseNum>=0){ //make sure verse num is in range of verses
             				result = quran['quran']['sura'][surahNum]['aya'][verseNum]['-text']; //get the text
             				//message.channel.send(' (سورة '+quran['quran']['sura'][surahNum]['-name']+': '+(verseNum+1)+'):\n'+'```\n'+result+'```', { split: true }); //send messages but split up if exceeding character limit
-                    const quranEmbed = new Discord.RichEmbed()
+                    const quranEmbed = new Discord.MessageEmbed()
                         .setColor('#00a34e')
                         .setAuthor('سورة '+quran['quran']['sura'][surahNum]['-name']+'   '+arNumber((surahNum+1).toString())+': '+arNumber((verseNum+1).toString()))
                         .setDescription(result);
@@ -183,7 +183,7 @@ client.on('message', (message) => {
               			if(v1<puya[surahNum].length&&v1>=0&&v2<puya[surahNum].length){ //make sure verse nums is in range of verses
               				result = quran['quran']['sura'][surahNum]['aya'][v1]['-text']; //get the text
               				//message.channel.send(' (سورة '+quran['quran']['sura'][surahNum]['-name']+': '+(verseNum+1)+'):\n'+'```\n'+result+'```', { split: true }); //send messages but split up if exceeding character limit
-                      const quranEmbed = new Discord.RichEmbed()
+                      const quranEmbed = new Discord.MessageEmbed()
                           .setColor('#00a34e')
                           .setAuthor('سورة '+quran['quran']['sura'][surahNum]['-name']+'   '+arNumber((surahNum+1).toString())+': '+arNumber((v1+1).toString()))
                           .setDescription(result);
@@ -234,7 +234,7 @@ client.on('message', (message) => {
             			if(verseNum<puya[surahNum].length&&verseNum>=0){ //make sure verse num is in range of verses
             				result = translation['quran']['sura'][surahNum]['aya'][verseNum]['-text']; //get the text
             				//message.channel.send(translationName+' (Surah '+surahInfo[surahNum]['title']+': '+(verseNum+1)+'):\n'+'```'+result+'```', { split: true }); //send messages but split up if exceeding character limit
-                    const quranEmbed = new Discord.RichEmbed()
+                    const quranEmbed = new Discord.MessageEmbed()
                         .setColor('#00a34e')
                         .setAuthor(translationName+' - '+'Surah '+surahInfo[surahNum]['title']+' '+(surahNum+1)+':'+(verseNum+1))
                         .setDescription(result);
@@ -256,7 +256,7 @@ client.on('message', (message) => {
               			if(v1<puya[surahNum].length&&v1>=0&&v2<puya[surahNum].length){ //make sure verse num is in range of verses
               				result = translation['quran']['sura'][surahNum]['aya'][v1]['-text']; //get the text
               				//message.channel.send(translationName+' (Surah '+surahInfo[surahNum]['title']+': '+(verseNum+1)+'):\n'+'```'+result+'```', { split: true }); //send messages but split up if exceeding character limit
-                      const quranEmbed = new Discord.RichEmbed()
+                      const quranEmbed = new Discord.MessageEmbed()
                           .setColor('#00a34e')
                           .setAuthor(translationName+' - '+'Surah '+surahInfo[surahNum]['title']+' '+(surahNum+1)+':'+(v1+1))
                           .setDescription(result);
@@ -307,7 +307,7 @@ client.on('message', (message) => {
             			if(verseNum<puya[surahNum].length&&verseNum>=0){ //make sure verse num is in range of verses
             				result = translation['quran']['sura'][surahNum]['aya'][verseNum]['-text']; //get the text
             				//message.channel.send(translationName+' (Surah '+surahInfo[surahNum]['title']+': '+(verseNum+1)+'):\n'+'```'+result+'```', { split: true }); //send messages but split up if exceeding character limit
-                    const quranEmbed = new Discord.RichEmbed()
+                    const quranEmbed = new Discord.MessageEmbed()
                       .setColor('#00a34e')
                       .setAuthor(translationName+' - '+'سورة '+quran['quran']['sura'][surahNum]['-name']+'   '+arNumber((surahNum+1).toString())+': '+arNumber((verseNum+1).toString()))
                       .setDescription(result);
@@ -329,7 +329,7 @@ client.on('message', (message) => {
                     if(v1<puya[surahNum].length&&v1>=0&&v2<puya[surahNum].length){ //make sure verse num is in range of verses
                       result = translation['quran']['sura'][surahNum]['aya'][v1]['-text']; //get the text
                       //message.channel.send(translationName+' (Surah '+surahInfo[surahNum]['title']+': '+(verseNum+1)+'):\n'+'```'+result+'```', { split: true }); //send messages but split up if exceeding character limit
-                      const quranEmbed = new Discord.RichEmbed()
+                      const quranEmbed = new Discord.MessageEmbed()
                         .setColor('#00a34e')
                         .setAuthor(translationName+' - '+'سورة '+quran['quran']['sura'][surahNum]['-name']+'   '+arNumber((surahNum+1).toString())+': '+arNumber((v1+1).toString()))
                         .setDescription(result);
@@ -380,7 +380,7 @@ client.on('message', (message) => {
               			if(verseNum<puya[surahNum].length&&verseNum>=0){ //make sure verse num is in range of verses
               				result = translation['quran']['sura'][surahNum]['aya'][verseNum]['-text']; //get the text
               				//message.channel.send(translationName+' (Surah '+surahInfo[surahNum]['title']+': '+(verseNum+1)+'):\n'+'```'+result+'```', { split: true }); //send messages but split up if exceeding character limit
-                      const quranEmbed = new Discord.RichEmbed()
+                      const quranEmbed = new Discord.MessageEmbed()
                         .setColor('#00a34e')
                         .setAuthor(translationName+' - '+'سورة '+quran['quran']['sura'][surahNum]['-name']+'   '+arNumber((surahNum+1).toString())+': '+arNumber((verseNum+1).toString()))
                         .setDescription(result);
@@ -402,7 +402,7 @@ client.on('message', (message) => {
                     if(v1<puya[surahNum].length&&v1>=0&&v2<puya[surahNum].length){ //make sure verse num is in range of verses
                       result = translation['quran']['sura'][surahNum]['aya'][v1]['-text']; //get the text
                       //message.channel.send(translationName+' (Surah '+surahInfo[surahNum]['title']+': '+(verseNum+1)+'):\n'+'```'+result+'```', { split: true }); //send messages but split up if exceeding character limit
-                      const quranEmbed = new Discord.RichEmbed()
+                      const quranEmbed = new Discord.MessageEmbed()
                         .setColor('#00a34e')
                         .setAuthor(translationName+' - '+'سورة '+quran['quran']['sura'][surahNum]['-name']+'   '+arNumber((surahNum+1).toString())+': '+arNumber((v1+1).toString()))
                         .setDescription(result);
@@ -440,7 +440,7 @@ client.on('message', (message) => {
                             if(result.length>=2000){
                               result = result.substring(0,1500) + '...\n Read the rest of the Hadith at: http://thaqalayn.co/index.php/ahadith?Al-Kafi/Usul/'+book+'/'+chapter+'/'+hadith;
                             }
-                            const quranEmbed = new Discord.RichEmbed()
+                            const quranEmbed = new Discord.MessageEmbed()
                               .setColor('#00a34e')
                               .setAuthor(usul[8]['name']+' - '+usul[8]['books'][parseInt(book)-1]['title'].replace(/<br>/g, ' - ')+' - '+usul[8]['books'][parseInt(book)-1]['chapters'][parseInt(chapter)-1]+' - Hadith '+hadith)
                               .setDescription(result);
@@ -450,7 +450,7 @@ client.on('message', (message) => {
                             if(result.length>=2000){
                               result = result.substring(0,1500) + '...\n Read the rest of the Hadith at: http://thaqalayn.co/index.php/ahadith?Al-Kafi/Usul/'+book+'/'+chapter+'/'+hadith;
                             }
-                            const quranEmbed = new Discord.RichEmbed()
+                            const quranEmbed = new Discord.MessageEmbed()
                               .setColor('#00a34e')
                               .setAuthor(usul[8]['name']+' - '+usul[8]['books'][parseInt(book)-1]['title'].replace(/<br>/g, ' - ')+' - '+usul[8]['books'][parseInt(book)-1]['chapters'][parseInt(chapter)-1]+' - Hadith '+hadith)
                               .setDescription(result);
@@ -460,7 +460,7 @@ client.on('message', (message) => {
                             if(result.length>=2000){
                               result = result.substring(0,1500) + '...\n Read the rest of the Hadith at: http://thaqalayn.co/index.php/ahadith?Al-Kafi/Usul/'+book+'/'+chapter+'/'+hadith;
                             }
-                            const quranEmbed = new Discord.RichEmbed()
+                            const quranEmbed = new Discord.MessageEmbed()
                               .setColor('#00a34e')
                               .setAuthor(usul[8]['name']+' - '+usul[8]['books'][parseInt(book)-1]['title'].replace(/<br>/g, ' - ')+' - '+usul[8]['books'][parseInt(book)-1]['chapters'][parseInt(chapter)-1]+' - Hadith '+hadith)
                               .setDescription(result);
@@ -471,7 +471,7 @@ client.on('message', (message) => {
                           if(result.length>=2000){
                             result = result.substring(0,1500) + '...\n Read the rest of the Hadith at: http://thaqalayn.co/index.php/ahadith?Al-Kafi/Usul/'+book+'/'+chapter+'/'+hadith;
                           }
-                          const quranEmbed = new Discord.RichEmbed()
+                          const quranEmbed = new Discord.MessageEmbed()
                             .setColor('#00a34e')
                             .setAuthor(usul[8]['name']+' - '+usul[8]['books'][parseInt(book)-1]['title'].replace(/<br>/g, ' - ')+' - '+usul[8]['books'][parseInt(book)-1]['chapters'][parseInt(chapter)-1]+' - Hadith '+hadith)
                             .setDescription(result);
@@ -492,7 +492,7 @@ client.on('message', (message) => {
                             if(result.length>=2000){
                               result = result.substring(0,1500) + '...\n Read the rest of the Hadith at: http://thaqalayn.co/index.php/ahadith?Al-Kafi/Furu/'+book+'/'+chapter+'/'+hadith;
                             }
-                            const quranEmbed = new Discord.RichEmbed()
+                            const quranEmbed = new Discord.MessageEmbed()
                               .setColor('#00a34e')
                               .setAuthor(furu[26]['name']+' - '+furu[26]['books'][parseInt(book)-1]['title'].replace(/<br>/g, ' - ')+' - '+furu[26]['books'][parseInt(book)-1]['chapters'][parseInt(chapter)-1]+' - Hadith '+hadith)
                               .setDescription(result);
@@ -502,7 +502,7 @@ client.on('message', (message) => {
                             if(result.length>=2000){
                               result = result.substring(0,1500) + '...\n Read the rest of the Hadith at: http://thaqalayn.co/index.php/ahadith?Al-Kafi/Furu/'+book+'/'+chapter+'/'+hadith;
                             }
-                            const quranEmbed = new Discord.RichEmbed()
+                            const quranEmbed = new Discord.MessageEmbed()
                               .setColor('#00a34e')
                               .setAuthor(furu[26]['name']+' - '+furu[26]['books'][parseInt(book)-1]['title'].replace(/<br>/g, ' - ')+' - '+furu[26]['books'][parseInt(book)-1]['chapters'][parseInt(chapter)-1]+' - Hadith '+hadith)
                               .setDescription(result);
@@ -512,7 +512,7 @@ client.on('message', (message) => {
                             if(result.length>=2000){
                               result = result.substring(0,1500) + '...\n Read the rest of the Hadith at: http://thaqalayn.co/index.php/ahadith?Al-Kafi/Furu/'+book+'/'+chapter+'/'+hadith;
                             }
-                            const quranEmbed = new Discord.RichEmbed()
+                            const quranEmbed = new Discord.MessageEmbed()
                               .setColor('#00a34e')
                               .setAuthor(furu[26]['name']+' - '+furu[26]['books'][parseInt(book)-1]['title'].replace(/<br>/g, ' - ')+' - '+furu[26]['books'][parseInt(book)-1]['chapters'][parseInt(chapter)-1]+' - Hadith '+hadith)
                               .setDescription(result);
@@ -523,7 +523,7 @@ client.on('message', (message) => {
                           if(result.length>=2000){
                             result = result.substring(0,1500) + '...\n Read the rest of the Hadith at: http://thaqalayn.co/index.php/ahadith?Al-Kafi/Furu/'+book+'/'+chapter+'/'+hadith;
                           }
-                          const quranEmbed = new Discord.RichEmbed()
+                          const quranEmbed = new Discord.MessageEmbed()
                             .setColor('#00a34e')
                             .setAuthor(furu[26]['name']+' - '+furu[26]['books'][parseInt(book)-1]['title'].replace(/<br>/g, ' - ')+' - '+furu[26]['books'][parseInt(book)-1]['chapters'][parseInt(chapter)-1]+' - Hadith '+hadith)
                             .setDescription(result);
@@ -544,7 +544,7 @@ client.on('message', (message) => {
                             if(result.length>=2000){
                               result = result.substring(0,1500) + '...\n Read the rest of the Hadith at: http://thaqalayn.co/index.php/ahadith?Al-Kafi/Rawdat/'+book+'/'+chapter+'/'+hadith;
                             }
-                            const quranEmbed = new Discord.RichEmbed()
+                            const quranEmbed = new Discord.MessageEmbed()
                               .setColor('#00a34e')
                               .setAuthor(rawdat[1]['name']+' - '+rawdat[1]['books'][parseInt(book)-1]['title'].replace(/<br>/g, ' - ')+' - '+rawdat[1]['books'][parseInt(book)-1]['chapters'][parseInt(chapter)-1]+' - Hadith '+hadith)
                               .setDescription(result);
@@ -554,7 +554,7 @@ client.on('message', (message) => {
                             if(result.length>=2000){
                               result = result.substring(0,1500) + '...\n Read the rest of the Hadith at: http://thaqalayn.co/index.php/ahadith?Al-Kafi/Rawdat/'+book+'/'+chapter+'/'+hadith;
                             }
-                            const quranEmbed = new Discord.RichEmbed()
+                            const quranEmbed = new Discord.MessageEmbed()
                               .setColor('#00a34e')
                               .setAuthor(rawdat[1]['name']+' - '+rawdat[1]['books'][parseInt(book)-1]['title'].replace(/<br>/g, ' - ')+' - '+rawdat[1]['books'][parseInt(book)-1]['chapters'][parseInt(chapter)-1]+' - Hadith '+hadith)
                               .setDescription(result);
@@ -564,7 +564,7 @@ client.on('message', (message) => {
                             if(result.length>=2000){
                               result = result.substring(0,1500) + '...\n Read the rest of the Hadith at: http://thaqalayn.co/index.php/ahadith?Al-Kafi/Rawdat/'+book+'/'+chapter+'/'+hadith;
                             }
-                            const quranEmbed = new Discord.RichEmbed()
+                            const quranEmbed = new Discord.MessageEmbed()
                               .setColor('#00a34e')
                               .setAuthor(rawdat[1]['name']+' - '+rawdat[1]['books'][parseInt(book)-1]['title'].replace(/<br>/g, ' - ')+' - '+rawdat[1]['books'][parseInt(book)-1]['chapters'][parseInt(chapter)-1]+' - Hadith '+hadith)
                               .setDescription(result);
@@ -575,7 +575,7 @@ client.on('message', (message) => {
                           if(result.length>=2000){
                             result = result.substring(0,1500) + '...\n Read the rest of the Hadith at: http://thaqalayn.co/index.php/ahadith?Al-Kafi/Rawdat/'+book+'/'+chapter+'/'+hadith;
                           }
-                          const quranEmbed = new Discord.RichEmbed()
+                          const quranEmbed = new Discord.MessageEmbed()
                             .setColor('#00a34e')
                             .setAuthor(rawdat[1]['name']+' - '+rawdat[1]['books'][parseInt(book)-1]['title'].replace(/<br>/g, ' - ')+' - '+rawdat[1]['books'][parseInt(book)-1]['chapters'][parseInt(chapter)-1]+' - Hadith '+hadith)
                             .setDescription(result);
@@ -629,7 +629,7 @@ client.on('message', (message) => {
                       }
                       var url = 'http://www.fourshiabooks.com/hadith/al-kafi/'+book+'/'+chapter+'/'+hadith;
                       var title = 'Al-Kafi Book '+book+', Chapter '+chapter+', Hadith '+hadith;
-                      const hadithEmbed = new Discord.RichEmbed()
+                      const hadithEmbed = new Discord.MessageEmbed()
                         .setColor('#00a34e')
                         .setTitle(narrator)
                         .setURL(url)
@@ -672,7 +672,7 @@ client.on('message', (message) => {
                       }
                       var url = 'http://www.fourshiabooks.com/hadith/al-kafi/'+book+'/'+chapter+'/'+hadith;
                       var title = 'Al-Kafi Book '+book+', Chapter '+chapter+', Hadith '+hadith;
-                      const hadithEmbed = new Discord.RichEmbed()
+                      const hadithEmbed = new Discord.MessageEmbed()
                         .setColor('#00a34e')
                         .setTitle(narrator)
                         .setURL(url)
